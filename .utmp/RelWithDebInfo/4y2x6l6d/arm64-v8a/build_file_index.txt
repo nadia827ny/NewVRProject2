@@ -1,0 +1,2 @@
+C:\Users\nadia\Documents\GitHub\NewVR\NewVRProject2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\nadia\Documents\GitHub\NewVR\NewVRProject2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
