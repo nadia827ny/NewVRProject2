@@ -1,0 +1,35 @@
+static counter1a: has 1 collider(s)
+static counter1a (1): has 1 collider(s)
+static counter1a (2): has 1 collider(s)
+static dish-rack: has 1 collider(s)
+static TestFloor: has 1 collider(s)
+mug: added mug grab 0 (Right) with 3 poses
+mug: added mug grab 1 (Right) with 3 poses
+mug: added mug grab 3 (Left) with 3 poses
+mug: added mug grab 4 (Left) with 3 poses
+mug: added mug grab 2 (Right) with 3 poses
+mug: added mug grab 5 (Left) with 3 poses
+knife1: added knife1 grab 0 (Right) with 3 poses
+knife1: added knife1 grab 1 (Left) with 3 poses
+knife2: added knife2 grab 0 (Right) with 3 poses
+knife2: added knife2 grab 1 (Left) with 3 poses
+plate: added plate grab 0 (Right) with 3 poses
+plate: added mirrored plate grab 0 (Left, mirrored)
+bowl: added bowl grab 0 (Right) with 3 poses
+bowl: added mirrored bowl grab 0 (Left, mirrored)
+
+=== VERIFY (distance from fingertip to object surface in mm; negative = inside)
+mug / mug grab 0 (Right) / Right: ThumbTip=-1000 IndexTip=7 MiddleTip=2 RingTip=-1000 LittleTip=2 Palm=49
+mug / mug grab 1 (Right) / Right: ThumbTip=5 IndexTip=-1000 MiddleTip=-1000 RingTip=-1000 LittleTip=-1000 Palm=72
+mug / mug grab 3 (Left) / Left: ThumbTip=5 IndexTip=-1000 MiddleTip=-1000 RingTip=-1000 LittleTip=-1000 Palm=49
+mug / mug grab 4 (Left) / Left: ThumbTip=14 IndexTip=0 MiddleTip=-1000 RingTip=-1000 LittleTip=-1000 Palm=72
+mug / mug grab 2 (Right) / Right: ThumbTip=-1000 IndexTip=19 MiddleTip=25 RingTip=35 LittleTip=38 Palm=42
+mug / mug grab 5 (Left) / Left: ThumbTip=3 IndexTip=19 MiddleTip=25 RingTip=35 LittleTip=38 Palm=42
+knife1 / knife1 grab 0 (Right) / Right: ThumbTip=12 IndexTip=16 MiddleTip=19 RingTip=18 LittleTip=10 Palm=29
+knife1 / knife1 grab 1 (Left) / Left: ThumbTip=29 IndexTip=14 MiddleTip=14 RingTip=13 LittleTip=16 Palm=31
+knife2 / knife2 grab 0 (Right) / Right: ThumbTip=28 IndexTip=16 MiddleTip=19 RingTip=18 LittleTip=12 Palm=28
+knife2 / knife2 grab 1 (Left) / Left: ThumbTip=29 IndexTip=14 MiddleTip=14 RingTip=13 LittleTip=16 Palm=31
+plate / plate grab 0 (Right) / Right: ThumbTip=-1000 IndexTip=-1000 MiddleTip=27 RingTip=41 LittleTip=49 Palm=63
+plate / plate grab 0 (Left, mirrored) / Left: ThumbTip=3 IndexTip=-1000 MiddleTip=27 RingTip=40 LittleTip=49 Palm=63
+bowl / bowl grab 0 (Right) / Right: ThumbTip=-1000 IndexTip=4 MiddleTip=32 RingTip=46 LittleTip=56 Palm=68
+bowl / bowl grab 0 (Left, mirrored) / Left: ThumbTip=-1000 IndexTip=4 MiddleTip=32 RingTip=46 LittleTip=56 Palm=68

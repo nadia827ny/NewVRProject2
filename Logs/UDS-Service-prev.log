@@ -1,0 +1,72 @@
+
+Server arguments:
+  --memory-size 1073741824
+  --shared-postfix f2e5c1197142a4758413af511e190298
+  --working-directory Library/DataStore
+  --silent-console
+  --shutdown-grace 0
+  --client-process-check 0
+  --uds-log-file C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2/Logs/UDS-Service.log
+  --debug-log 2
+  -name
+  Unity.DataStore
+
+Initialising UDS system complete:
+  - System type: Service
+  - Resource namespace: f2e5c1197142a4758413af511e190298
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+Starting Unity Data Store Application
+[Error] Failed to free block of size 154 - size delta was 46!
+0x00007ff7f61dac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f619f835 (Unity.DataStore) uds_cleanup
+0x00007ff7f61c8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f61b995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7f61a1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7f61725f4 (Unity.DataStore) 
+0x00007ff7f619207a (Unity.DataStore) uds_cleanup
+0x00007ff7f61d61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffee673dda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffee7c9ee4c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 2686 - size delta was 42!
+0x00007ff7f61dac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f619f835 (Unity.DataStore) uds_cleanup
+0x00007ff7f61c8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f61b995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7f61a1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7f61725f4 (Unity.DataStore) 
+0x00007ff7f619207a (Unity.DataStore) uds_cleanup
+0x00007ff7f61d61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffee673dda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffee7c9ee4c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 24533 - size delta was 43!
+0x00007ff7f61dac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f619f835 (Unity.DataStore) uds_cleanup
+0x00007ff7f61c8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f61b995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7f61a1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7f61725f4 (Unity.DataStore) 
+0x00007ff7f619207a (Unity.DataStore) uds_cleanup
+0x00007ff7f61d61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffee673dda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffee7c9ee4c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 1238 - size delta was 42!
+0x00007ff7f61dac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f619f835 (Unity.DataStore) uds_cleanup
+0x00007ff7f61c8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7f61b995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7f61a1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7f61725f4 (Unity.DataStore) 
+0x00007ff7f619207a (Unity.DataStore) uds_cleanup
+0x00007ff7f61d61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffee673dda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffee7c9ee4c (ntdll) RtlUserThreadStart
+
+Unity Data Store Application Complete
+[Warning] Shutting down service while there are still connected clients, client count = 4
+Shut down UDS service system complete

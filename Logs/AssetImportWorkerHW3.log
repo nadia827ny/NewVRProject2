@@ -1,0 +1,700 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nadia" at "2026-10-24T04:07:34.0051105Z"
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 16208 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-24T04:07:34Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 10812, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              16eb11a052854e76afe9399b4dbb1886
+  Correlation Id:          5d7fd43ff77d6ae6e2c587ebe0777ed7
+  External correlation Id: 910693096070805029
+  Machine Id:              qWafhisASDQIfrFUAICso/rlL1w=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nadia" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nadia-notifications" at "2026-10-24T04:07:34.0720247Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW3
+-projectPath
+C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2
+-logFile
+Logs/AssetImportWorkerHW3.log
+-srvPort
+58320
+-parentPid
+23220
+-analyticsCloudUserId
+2476045025254
+-analyticsLocalProjectId
+a794e689d51de7e4fba7d3b0a439ad2c
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+f0059bd3c9bbbae27c00e5112c1de75655c837bd
+-cbmMachineId
+qWafhisASDQIfrFUAICso/rlL1w=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2
+C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [21732]  Target information:
+
+Player connection [21732]  * "[IP] 192.168.1.218 [Port] 0 [Flags] 2 [Guid] 1499220310 [EditorId] 1499220310 [Version] 1048832 [Id] WindowsEditor(7,Nadiasurface) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21732]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 1499220310 [EditorId] 1499220310 [Version] 1048832 [Id] WindowsEditor(7,Nadiasurface) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21732] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21732] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 62.71 ms, found 11 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 2.33 ms.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:          Intel
+    VRAM:            8104 MB
+    App VRAM Budget: 7442 MB
+    Driver:          32.0.101.7085
+    Unified Memory Architecture
+    Cache Coherent UMA
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.017532 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.358 seconds
+Domain Reload Profiling: 2374ms
+	BeginReloadAssembly (204ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (205ms)
+		TypeCache.Refresh (411ms)
+			TypeCache.ScanAssembly (387ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1362ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (708ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.21 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 11.55 ms, found 11 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.589 seconds
+Domain Reload Profiling: 4480ms
+	BeginReloadAssembly (399ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (1344ms)
+		LoadAssemblies (786ms)
+		TypeCache.Refresh (284ms)
+			TypeCache.ScanAssembly (250ms)
+		AnalyzeDomain (162ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2591ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (1537ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 14.26 ms, found 11 plugins.
+Unloading 92 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7179 unused Assets / (21.4 MB). Loaded Objects now: 8064.
+Memory consumption went from 367.0 MB to 345.6 MB.
+Total: 24.101400 ms (FindLiveObjects: 2.099000 ms CreateObjectMapping: 1.026700 ms MarkObjects: 13.447700 ms  DeleteObjects: 7.119200 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 12.42 ms, found 11 plugins.
+Unloading 92 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (12.1 MB). Loaded Objects now: 8064.
+Memory consumption went from 357.4 MB to 345.2 MB.
+Total: 20.778000 ms (FindLiveObjects: 1.141500 ms CreateObjectMapping: 0.197100 ms MarkObjects: 16.062600 ms  DeleteObjects: 2.924600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-24T04:19:05.9178886Z
+  Time since last request: 17680.10220259999915 seconds.
+  importAddress: GUID: be9b10d55f7a5834c9c266244c8a304b - Path: Assets/StreamingAssets/RuntimeActionBindings.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: be9b10d55f7a5834c9c266244c8a304b - Path: Assets/StreamingAssets/RuntimeActionBindings.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: be9b10d55f7a5834c9c266244c8a304b' -> (Import Result ID: '00000000000000000000000000000000') in 0.881 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/streamingassets/runtimeactionbindings.json in SourceAssetDB has modification time of '2026-10-24T04:18:24.7372743Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffe3e815b6b (Unity) StackWalker::ShowCallstack
+0x00007ffe3e8179d3 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe3e8311b5 (Unity) Stacktrace::GetStacktrace
+0x00007ffe3ba54ac0 (Unity) GetAssetHashAndValidate
+0x00007ffe3ba536e5 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffe3ba51a3a (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffe3ba0b784 (Unity) CreateAssetVersionBuilder
+0x00007ffe3ba133ff (Unity) ImportToObjects
+0x00007ffe3ba11d58 (Unity) ImportAsset
+0x00007ffe3ba78aef (Unity) AssetImportWorker::Import
+0x00007ffe3ba98810 (Unity) <lambda_e7dd0321838054c03ab8988504996bbd>::operator()
+0x00007ffe3b9ab1fc (Unity) asio::detail::executor_op<asio::detail::binder0<core::mutable_function<void __cdecl(void)> >,std::allocator<void>,asio::detail::win_iocp_operation>::do_complete
+0x00007ffe3b9ae091 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe3b9b3044 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe3b9a8fb6 (Unity) IOService::Run
+0x00007ffe3bac4741 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe3bac483b (Unity) RunAssetImporterV2
+0x00007ffe3c7a3766 (Unity) Application::InitializeProject
+0x00007ffe3c0843e5 (Unity) UnityMain
+0x00007ff6fd81260a (Unity) __scrt_common_main_seh
+0x00007ffee673dda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffee7c9ee4c (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/streamingassets/runtimeactionbindings.json in SourceAssetDB has modification time of '2026-10-24T04:18:24.7372743Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ffe3e815b6b (Unity) StackWalker::ShowCallstack
+0x00007ffe3e8179d3 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe3e8311b5 (Unity) Stacktrace::GetStacktrace
+0x00007ffe3ba54ac0 (Unity) GetAssetHashAndValidate
+0x00007ffe3ba536e5 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ffe3ba51a3a (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ffe3ba0b784 (Unity) CreateAssetVersionBuilder
+0x00007ffe3ba133ff (Unity) ImportToObjects
+0x00007ffe3ba11d58 (Unity) ImportAsset
+0x00007ffe3ba78aef (Unity) AssetImportWorker::Import
+0x00007ffe3ba98810 (Unity) <lambda_e7dd0321838054c03ab8988504996bbd>::operator()
+0x00007ffe3b9ab1fc (Unity) asio::detail::executor_op<asio::detail::binder0<core::mutable_function<void __cdecl(void)> >,std::allocator<void>,asio::detail::win_iocp_operation>::do_complete
+0x00007ffe3b9ae091 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe3b9b3044 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe3b9a8fb6 (Unity) IOService::Run
+0x00007ffe3bac4741 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe3bac483b (Unity) RunAssetImporterV2
+0x00007ffe3c7a3766 (Unity) Application::InitializeProject
+0x00007ffe3c0843e5 (Unity) UnityMain
+0x00007ff6fd81260a (Unity) __scrt_common_main_seh
+0x00007ffee673dda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffee7c9ee4c (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 18.12 ms, found 11 plugins.
+Unloading 92 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (12.1 MB). Loaded Objects now: 8066.
+Memory consumption went from 361.8 MB to 349.7 MB.
+Total: 20.541100 ms (FindLiveObjects: 1.481600 ms CreateObjectMapping: 0.393300 ms MarkObjects: 15.336500 ms  DeleteObjects: 2.961900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 22.19 ms, found 11 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 30.47 ms, found 11 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.200 seconds
+Domain Reload Profiling: 6344ms
+	BeginReloadAssembly (989ms)
+		DisableScriptedObjects (52ms)
+		CreateAndSetChildDomain (184ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (252ms)
+	LoadAllAssembliesAndSetupDomain (1835ms)
+		LoadAssemblies (1218ms)
+		TypeCache.Refresh (25ms)
+		AnalyzeDomain (540ms)
+			BuildScriptInfoCaches (511ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3202ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (9ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			BeforeProcessingInitializeOnLoad (396ms)
+			ProcessInitializeOnLoadAttributes (1385ms)
+			ProcessInitializeOnLoadMethodAttributes (314ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (6ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
+Refreshing native plugins compatible for Editor in 20.77 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7177 unused Assets / (15.5 MB). Loaded Objects now: 8119.
+Memory consumption went from 382.2 MB to 366.7 MB.
+Total: 28.715300 ms (FindLiveObjects: 2.078900 ms CreateObjectMapping: 1.322200 ms MarkObjects: 18.838300 ms  DeleteObjects: 5.957500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 23.35 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7120 unused Assets / (14.8 MB). Loaded Objects now: 8120.
+Memory consumption went from 384.4 MB to 369.6 MB.
+Total: 26.347700 ms (FindLiveObjects: 2.200400 ms CreateObjectMapping: 0.809400 ms MarkObjects: 17.218200 ms  DeleteObjects: 5.621100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 24.04 ms, found 11 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 31.98 ms, found 11 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.887 seconds
+Domain Reload Profiling: 6346ms
+	BeginReloadAssembly (728ms)
+		DisableScriptedObjects (51ms)
+		CreateAndSetChildDomain (139ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (195ms)
+	LoadAllAssembliesAndSetupDomain (2462ms)
+		LoadAssemblies (1147ms)
+		TypeCache.Refresh (42ms)
+		AnalyzeDomain (713ms)
+			BuildScriptInfoCaches (689ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2891ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (15ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			BeforeProcessingInitializeOnLoad (351ms)
+			ProcessInitializeOnLoadAttributes (1297ms)
+			ProcessInitializeOnLoadMethodAttributes (324ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (96ms)
+Refreshing native plugins compatible for Editor in 28.93 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7178 unused Assets / (15.1 MB). Loaded Objects now: 8124.
+Memory consumption went from 388.2 MB to 373.1 MB.
+Total: 31.065100 ms (FindLiveObjects: 2.266400 ms CreateObjectMapping: 1.159000 ms MarkObjects: 20.643300 ms  DeleteObjects: 6.464200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 67.15 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7121 unused Assets / (14.6 MB). Loaded Objects now: 8125.
+Memory consumption went from 390.5 MB to 375.9 MB.
+Total: 59.268100 ms (FindLiveObjects: 2.491800 ms CreateObjectMapping: 2.097700 ms MarkObjects: 40.977600 ms  DeleteObjects: 13.024200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 40.42 ms, found 11 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 36.86 ms, found 11 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.554 seconds
+Domain Reload Profiling: 6784ms
+	BeginReloadAssembly (781ms)
+		DisableScriptedObjects (35ms)
+		CreateAndSetChildDomain (168ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (193ms)
+	LoadAllAssembliesAndSetupDomain (2177ms)
+		LoadAssemblies (1087ms)
+		TypeCache.Refresh (35ms)
+		AnalyzeDomain (670ms)
+			BuildScriptInfoCaches (631ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3558ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (7ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			BeforeProcessingInitializeOnLoad (461ms)
+			ProcessInitializeOnLoadAttributes (1434ms)
+			ProcessInitializeOnLoadMethodAttributes (411ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (92ms)
+Refreshing native plugins compatible for Editor in 33.96 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7179 unused Assets / (16.3 MB). Loaded Objects now: 8129.
+Memory consumption went from 398.1 MB to 381.8 MB.
+Total: 41.749800 ms (FindLiveObjects: 2.735500 ms CreateObjectMapping: 1.172800 ms MarkObjects: 28.559100 ms  DeleteObjects: 8.674500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 52.44 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7121 unused Assets / (15.1 MB). Loaded Objects now: 8129.
+Memory consumption went from 400.5 MB to 385.4 MB.
+Total: 43.361400 ms (FindLiveObjects: 2.519700 ms CreateObjectMapping: 1.441700 ms MarkObjects: 30.717500 ms  DeleteObjects: 8.000000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 34.28 ms, found 11 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 66.69 ms, found 11 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.969 seconds
+Domain Reload Profiling: 8957ms
+	BeginReloadAssembly (1372ms)
+		DisableScriptedObjects (76ms)
+		CreateAndSetChildDomain (240ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (343ms)
+	LoadAllAssembliesAndSetupDomain (3185ms)
+		LoadAssemblies (2002ms)
+		TypeCache.Refresh (39ms)
+		AnalyzeDomain (884ms)
+			BuildScriptInfoCaches (841ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (3974ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (7ms)
+			InitializePlatformSupportModulesInManaged (68ms)
+			BeforeProcessingInitializeOnLoad (505ms)
+			ProcessInitializeOnLoadAttributes (1926ms)
+			ProcessInitializeOnLoadMethodAttributes (431ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (125ms)
+Refreshing native plugins compatible for Editor in 76.40 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7179 unused Assets / (16.0 MB). Loaded Objects now: 8133.
+Memory consumption went from 407.0 MB to 391.0 MB.
+Total: 54.730800 ms (FindLiveObjects: 3.749300 ms CreateObjectMapping: 1.983200 ms MarkObjects: 36.655100 ms  DeleteObjects: 11.538800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 54.71 ms, found 11 plugins.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (12.1 MB). Loaded Objects now: 8133.
+Memory consumption went from 404.3 MB to 392.3 MB.
+Total: 50.640900 ms (FindLiveObjects: 2.453000 ms CreateObjectMapping: 1.646800 ms MarkObjects: 36.621100 ms  DeleteObjects: 8.593500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 4 -> 262148
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

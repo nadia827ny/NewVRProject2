@@ -1,0 +1,280 @@
+=== SAMPLE Mug/Mug.prefab loaded=True
+  - Mug rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,Rigidbody,Grabbable,PointableUnityEventWrapper]
+      Grabbable target=none rb=none
+      Rigidbody kinematic=True gravity=False
+    - HandGrabInteractable rootLocalPos=(0.0694,0.0169,-0.1093) rootLocalRot=(69.1765,52.2020,323.6897) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Mug align=1 types=3
+      - HandGrab Point rootLocalPos=(0.0694,0.0169,-0.1093) rootLocalRot=(347.8479,356.6851,287.0394) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(0.0670,0.0191,-0.0880) rootLocalRot=(347.8479,356.6851,287.0394) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(0.0773,0.0147,-0.1289) rootLocalRot=(347.8479,356.6851,287.0394) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+    - HandGrabInteractable rootLocalPos=(0.0279,0.1451,-0.0836) rootLocalRot=(9.8707,79.1328,19.1397) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Mug align=1 types=3
+      - HandGrab Point rootLocalPos=(0.0279,0.1451,-0.0836) rootLocalRot=(18.8456,345.7281,349.5641) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(0.0226,0.1266,-0.0677) rootLocalRot=(18.8456,345.7281,349.5641) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(0.0333,0.1581,-0.0994) rootLocalRot=(18.8456,345.7281,349.5641) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+    - HandGrabInteractable rootLocalPos=(-0.1485,-0.0027,0.0478) rootLocalRot=(77.3291,173.6369,303.2669) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Mug align=1 types=3
+      - HandGrab Point rootLocalPos=(-0.1485,-0.0027,0.0478) rootLocalRot=(349.4319,139.7190,277.0305) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose]
+          HandGrabPose hand=1 freedom=[0,2,2,2,0] joints=19 ovrOffset=1 surface=none relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(-0.1304,0.0031,0.0373) rootLocalRot=(349.4319,139.7190,277.0305) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose]
+          HandGrabPose hand=1 freedom=[0,2,2,2,0] joints=19 ovrOffset=1 surface=none relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(-0.1696,-0.0129,0.0585) rootLocalRot=(349.4319,139.7190,277.0305) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose]
+          HandGrabPose hand=1 freedom=[0,2,2,2,0] joints=19 ovrOffset=1 surface=none relTo=Mug localRot=(0.00000,-0.70711,0.00000,0.70711)
+    - HandGrabInteractable_mirror rootLocalPos=(0.0694,0.0169,-0.1093) rootLocalRot=(290.8235,62.9728,143.6897) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Mug align=1 types=3
+      - HandGrab Point rootLocalPos=(0.0694,0.0169,-0.1093) rootLocalRot=(347.8480,298.4896,72.9606) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.70711,0.00000,0.70711,0.00000)
+      - HandGrab Point rootLocalPos=(0.0670,0.0191,-0.0880) rootLocalRot=(347.8480,288.6864,72.9606) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.72183,-0.04375,0.68721,0.06919)
+      - HandGrab Point rootLocalPos=(0.0773,0.0147,-0.1289) rootLocalRot=(347.8479,301.4409,72.9606) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.70166,0.01319,0.71209,-0.02085)
+    - HandGrabInteractable_mirror rootLocalPos=(0.0279,0.1451,-0.0836) rootLocalRot=(350.1293,63.9092,199.1397) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Mug align=1 types=3
+      - HandGrab Point rootLocalPos=(0.0279,0.1451,-0.0836) rootLocalRot=(18.8457,337.3139,10.4359) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.70711,0.00000,0.70711,0.00000)
+      - HandGrab Point rootLocalPos=(0.0226,0.1266,-0.0677) rootLocalRot=(18.8457,337.3161,10.4359) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.70709,0.00001,0.70712,0.00000)
+      - HandGrab Point rootLocalPos=(0.0333,0.1581,-0.0994) rootLocalRot=(18.8457,337.2712,10.4359) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[2,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Mug localRot=(0.70735,-0.00013,0.70686,-0.00004)
+    - HandGrabInteractable_mirror rootLocalPos=(-0.1485,-0.0027,-0.0478) rootLocalRot=(282.6709,186.3634,123.2665) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Mug align=1 types=3
+      - HandGrab Point rootLocalPos=(-0.1485,-0.0027,-0.0478) rootLocalRot=(349.4319,40.2809,82.9695) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose]
+          HandGrabPose hand=0 freedom=[0,2,2,2,0] joints=19 ovrOffset=1 surface=none relTo=Mug localRot=(0.70711,0.00000,0.70711,0.00000)
+      - HandGrab Point rootLocalPos=(-0.1304,0.0031,-0.0373) rootLocalRot=(349.4319,40.2809,82.9695) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose]
+          HandGrabPose hand=0 freedom=[0,2,2,2,0] joints=19 ovrOffset=1 surface=none relTo=Mug localRot=(0.70711,0.00000,0.70711,0.00000)
+      - HandGrab Point rootLocalPos=(-0.1696,-0.0129,-0.0585) rootLocalRot=(349.4319,40.2809,82.9695) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose]
+          HandGrabPose hand=0 freedom=[0,2,2,2,0] joints=19 ovrOffset=1 surface=none relTo=Mug localRot=(0.70711,0.00000,0.70711,0.00000)
+    - Visuals rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,InteractableColorVisual,MaterialPropertyBlockEditor,InteractableGroupView]
+      - Root rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+        - simpleGrabCupMesh rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshRenderer,MeshFilter,BoxCollider,MeshCollider]
+            meshBounds center=(-0.0174,0.0113,0.0000) size=(0.1169,0.0904,0.0822) mesh=cup
+            box center=(0.0000,0.0000,0.0000) size=(0.0820,0.0820,0.0820) trigger=False
+    - Audio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+      - BasicGrabPickupAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+      - BasicGrabReleaseAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+=== SAMPLE Torch/Torch.prefab loaded=True
+  - Torch rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,Rigidbody,Grabbable,PointableUnityEventWrapper]
+      Grabbable target=none rb=none
+      Rigidbody kinematic=True gravity=False
+    - HandGrabInteractable rootLocalPos=(0.0826,-0.0639,-0.0020) rootLocalRot=(74.9414,271.4937,248.3232) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Torch align=1 types=2
+      - HandGrab Point rootLocalPos=(0.0826,-0.0639,-0.0020) rootLocalRot=(346.0288,293.8665,264.3247) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[1,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Torch localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(0.0680,-0.0639,0.0014) rootLocalRot=(346.0288,293.8665,264.3247) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[1,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Torch localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(0.0974,-0.0638,0.0035) rootLocalRot=(346.0288,293.8665,264.3247) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=1 freedom=[1,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Torch localRot=(0.00000,-0.70711,0.00000,0.70711)
+    - HandGrabInteractable_mirror rootLocalPos=(0.0826,-0.0639,-0.0020) rootLocalRot=(285.0585,91.2857,68.3181) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Torch align=1 types=2
+      - HandGrab Point rootLocalPos=(0.0826,-0.0639,-0.0020) rootLocalRot=(346.0294,248.9077,95.6765) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[1,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Torch localRot=(0.70711,0.00000,0.70711,0.00000)
+      - HandGrab Point rootLocalPos=(0.0680,-0.0639,0.0014) rootLocalRot=(346.0289,243.7190,95.6754) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[1,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Torch localRot=(0.70331,-0.02317,0.70946,0.03864)
+      - HandGrab Point rootLocalPos=(0.0974,-0.0638,0.0035) rootLocalRot=(346.0288,242.0255,95.6751) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose,CylinderGrabSurface]
+          HandGrabPose hand=0 freedom=[1,1,1,1,1] joints=19 ovrOffset=1 surface=CylinderGrabSurface relTo=Torch localRot=(0.70175,-0.03073,0.70991,0.05124)
+    - Visuals rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,InteractableColorVisual,MaterialPropertyBlockEditor,InteractableGroupView]
+      - Root rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+        - simpleGrabTorchMesh rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshRenderer,MeshFilter,BoxCollider,MeshCollider,CapsuleCollider]
+            meshBounds center=(0.0000,-0.0239,0.0000) size=(0.1013,0.2406,0.1017) mesh=torch
+            box center=(-0.0004,0.0825,-0.0001) size=(0.1020,0.0299,0.1031) trigger=False
+        - torchParticleFlames rootLocalPos=(0.0000,0.0875,0.0000) rootLocalRot=(270.0000,0.0000,0.0000) localScale=(0.6280,0.6280,0.6280) [Transform,ParticleSystem,ParticleSystemRenderer]
+          - torchParticleBase rootLocalPos=(0.0000,0.0770,0.0000) rootLocalRot=(90.0000,0.0000,0.0000) localScale=(0.2508,0.2508,0.2508) [Transform,ParticleSystemRenderer,ParticleSystem]
+          - torchParticleSparks rootLocalPos=(0.0000,0.0875,0.0000) rootLocalRot=(270.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,ParticleSystem,ParticleSystemRenderer]
+    - Audio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+      - BasicGrabPickupAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+      - BasicGrabReleaseAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+=== SAMPLE Key/Key.prefab loaded=True
+  - Key rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,Rigidbody,Grabbable,PointableUnityEventWrapper]
+      Grabbable target=none rb=none
+      Rigidbody kinematic=True gravity=False
+    - Visuals rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,InteractableColorVisual,MaterialPropertyBlockEditor,InteractableGroupView]
+      - Root rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+        - simpleGrabKeyMesh rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshRenderer,MeshFilter,BoxCollider,MeshCollider]
+            meshBounds center=(-0.0026,0.0010,0.0008) size=(0.0372,0.0114,0.1129) mesh=key
+            box center=(-0.0121,0.0010,0.0444) size=(0.0203,0.0059,0.0272) trigger=False
+    - HandGrabInteractable rootLocalPos=(-0.0330,-0.0253,-0.1458) rootLocalRot=(66.8285,281.2218,149.5295) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Key align=1 types=1
+      - HandGrab Point rootLocalPos=(-0.0330,-0.0253,-0.1458) rootLocalRot=(11.5097,39.6303,249.7510) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose]
+          HandGrabPose hand=1 freedom=[2,2,0,0,0] joints=19 ovrOffset=1 surface=none relTo=Key localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(-0.0252,-0.0210,-0.1261) rootLocalRot=(11.5097,39.6303,249.7510) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose]
+          HandGrabPose hand=1 freedom=[2,2,0,0,0] joints=19 ovrOffset=1 surface=none relTo=Key localRot=(0.00000,-0.70711,0.00000,0.70711)
+      - HandGrab Point rootLocalPos=(-0.0407,-0.0311,-0.1654) rootLocalRot=(11.5097,39.6303,249.7510) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose]
+          HandGrabPose hand=1 freedom=[2,2,0,0,0] joints=19 ovrOffset=1 surface=none relTo=Key localRot=(0.00000,-0.70711,0.00000,0.70711)
+    - HandGrabInteractable_mirror rootLocalPos=(-0.0330,0.0269,-0.1458) rootLocalRot=(66.8288,101.2220,149.5297) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+        HandGrabInteractable poses=[HandGrab Point,HandGrab Point,HandGrab Point] rb=Key align=1 types=1
+      - HandGrab Point rootLocalPos=(-0.0330,0.0269,-0.1458) rootLocalRot=(348.4905,39.6304,290.2488) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose]
+          HandGrabPose hand=0 freedom=[2,2,0,0,0] joints=19 ovrOffset=1 surface=none relTo=Key localRot=(0.70711,0.00000,0.70711,0.00000)
+      - HandGrab Point rootLocalPos=(-0.0252,0.0226,-0.1261) rootLocalRot=(348.4905,39.6304,290.2488) localScale=(0.8000,0.8000,0.8000) [Transform,HandGrabPose]
+          HandGrabPose hand=0 freedom=[2,2,0,0,0] joints=19 ovrOffset=1 surface=none relTo=Key localRot=(0.70711,0.00000,0.70711,0.00000)
+      - HandGrab Point rootLocalPos=(-0.0407,0.0327,-0.1654) rootLocalRot=(348.4905,39.6304,290.2488) localScale=(1.2000,1.2000,1.2000) [Transform,HandGrabPose]
+          HandGrabPose hand=0 freedom=[2,2,0,0,0] joints=19 ovrOffset=1 surface=none relTo=Key localRot=(0.70711,0.00000,0.70711,0.00000)
+    - Audio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,270.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+      - BasicGrabPickupAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,270.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+      - BasicGrabReleaseAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,270.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+=== SAMPLE PictureFrame/PictureFrame.prefab loaded=True
+  - PictureFrame rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+    - Close-PictureFrame rootLocalPos=(0.0950,0.1420,0.2140) rootLocalRot=(290.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+      - Frame rootLocalPos=(0.0950,0.1420,0.2140) rootLocalRot=(290.0000,26.0000,0.0000) localScale=(0.7800,0.7800,0.5600) [Transform,MeshFilter,MeshRenderer,MeshCollider]
+          meshBounds center=(0.0000,0.0096,0.0000) size=(0.5469,0.0193,0.5469) mesh=mapFrame
+        - Backing rootLocalPos=(0.0911,0.1452,0.2061) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(0.5000,0.5000,0.5000) [Transform,MeshFilter,MeshRenderer,MeshCollider]
+            meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,0.0000) mesh=Quad
+      - Canvas rootLocalPos=(0.0909,0.1454,0.2056) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(0.0006,0.0006,0.0006) [RectTransform,Canvas,CanvasScaler,GraphicRaycaster,CanvasRenderer,Image,Mask]
+        - Carousel rootLocalPos=(0.0909,0.1454,0.2056) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,CarouselView]
+          - Viewport rootLocalPos=(0.0909,0.1454,0.2056) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform]
+            - Content rootLocalPos=(-0.0857,0.1454,0.2917) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,HorizontalLayoutGroup,ContentSizeFitter]
+              - Picture rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,LayoutElement]
+                - Image rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,CanvasRenderer,RawImage]
+              - Picture (1) rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,LayoutElement]
+                - Image rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,CanvasRenderer,RawImage]
+              - Picture (2) rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,LayoutElement]
+                - Image rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,CanvasRenderer,RawImage]
+              - Picture (3) rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,LayoutElement]
+                - Image rootLocalPos=(-0.1067,0.0138,0.2486) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [RectTransform,CanvasRenderer,RawImage]
+      - Hover rootLocalPos=(0.0872,0.1485,0.1980) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(4.0000,4.0000,4.0000) [Transform]
+        - Background rootLocalPos=(0.0872,0.1485,0.1980) rootLocalRot=(20.0000,26.0000,0.0000) localScale=(0.1200,0.0900,1.0000) [Transform,MeshFilter,MeshRenderer,MaterialPropertyBlockEditor,RoundedBoxProperties]
+            meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,0.0000) mesh=Quad
+    - CheckHover rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,ActiveStateUnityEventWrapper,ActiveStateGroup]
+      - AnyHovering rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,ColliderContainsHandJointActiveState,ColliderContainsHandJointActiveState]
+      - Entry rootLocalPos=(0.0270,0.2460,0.0470) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BoxCollider]
+          box center=(0.0000,0.0000,0.0000) size=(0.7000,0.5000,0.5000) trigger=True
+      - Exit rootLocalPos=(0.0270,0.2460,0.0470) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BoxCollider]
+          box center=(0.0000,0.0000,0.0000) size=(0.8000,0.6000,0.6000) trigger=True
+    - Select rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,ActiveStateUnityEventWrapper,ActiveStateGroup]
+      - LeftHand rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,ActiveStateGroup,ActiveStateUnityEventWrapper]
+      - RightHand rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,ActiveStateGroup,ActiveStateUnityEventWrapper]
+      - AnySelectGesture rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,ActiveStateGroup]
+    - Audio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+      - BasicGesturesSwipeAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+=== SAMPLE Box/Box.prefab loaded=True
+  - Box rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+    - BoxBase rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshFilter,MeshRenderer,MeshCollider]
+        meshBounds center=(0.0000,-0.0238,-0.0017) size=(0.2835,0.1330,0.1806) mesh=BoxBase
+    - Hinge rootLocalPos=(0.0257,0.0393,0.0841) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,Rigidbody]
+        Rigidbody kinematic=True gravity=True
+      - BoxLid rootLocalPos=(0.0257,0.0393,0.0841) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,Grabbable,OneGrabRotateTransformer,Rigidbody,MeshFilter,MeshRenderer,MeshCollider,MaterialPropertyBlockEditor,InteractableColorVisual,InteractableGroupView]
+          meshBounds center=(-0.0259,0.0133,-0.0943) size=(0.2689,0.0333,0.1953) mesh=BoxLid
+          Grabbable target=none rb=none
+          Rigidbody kinematic=True gravity=True
+        - GrabInteractable rootLocalPos=(0.0257,0.0393,0.0841) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,GrabInteractable]
+        - HandGrabInteractable rootLocalPos=(0.0257,0.0393,0.0841) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabInteractable]
+            HandGrabInteractable poses=[] rb=BoxLid align=0 types=3
+    - Audio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,PointableUnityEventWrapper]
+      - ComplexGrabBoxGrabAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+      - ComplexGrabBoxReleaseAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+      - ComplexGrabBoxOpenClose rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,RotationAudioEvents]
+        - ComplexGrabBoxOpenAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+        - ComplexGrabBoxCloseAudio rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,AudioSource,AudioTrigger]
+=== SAMPLE ChessPiece/ChessPiece.prefab loaded=True
+  - ChessPiece rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.8000,0.8000,0.8000) [Transform,TouchHandGrabInteractable,Rigidbody,Grabbable,RespawnOnDrop]
+      Grabbable target=none rb=ChessPiece
+      Rigidbody kinematic=False gravity=True
+    - Visuals rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,InteractableColorVisual,MaterialPropertyBlockEditor]
+      - Knight rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshFilter,MeshRenderer]
+          meshBounds center=(-0.0017,0.0370,0.0000) size=(0.0561,0.0949,0.0469) mesh=knight
+        - KnightColliders rootLocalPos=(1.8898,-0.0201,-0.0881) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+          - ConvexHullPart rootLocalPos=(-0.0001,0.0005,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.8853,0.8853,0.8853) [Transform,MeshFilter,MeshRenderer,MeshCollider]
+              meshBounds center=(-0.0005,0.0039,0.0001) size=(0.0489,0.0298,0.0490) mesh=knight_hull_1
+          - ConvexHullPart rootLocalPos=(-0.0004,-0.0050,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.9359,1.1450,0.9359) [Transform,MeshFilter,MeshRenderer,MeshCollider]
+              meshBounds center=(-0.0057,0.0346,-0.0004) size=(0.0480,0.0317,0.0230) mesh=knight_hull_2
+          - ConvexHullPart rootLocalPos=(0.0023,0.0087,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.8617,0.8617,0.8617) [Transform,MeshFilter,MeshRenderer,MeshCollider]
+              meshBounds center=(0.0163,0.0629,0.0001) size=(0.0230,0.0230,0.0163) mesh=knight_hull_3
+          - ConvexHullPart rootLocalPos=(-0.0012,0.0061,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.9100,0.9100,0.9100) [Transform,MeshFilter,MeshRenderer,MeshCollider]
+              meshBounds center=(-0.0129,0.0682,0.0001) size=(0.0355,0.0355,0.0221) mesh=knight_hull_4
+      - BoundsCollider rootLocalPos=(0.0000,0.0368,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.0571,0.0959,0.0531) [Transform,MeshFilter,BoxCollider]
+          meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) mesh=Cube
+          box center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) trigger=True
+=== TARGET mug found=True
+  worldPos=(1.0777,0.1030,2.7908) worldRot=(0.0000,0.0000,0.0000) lossyScale=(1.0000,1.0000,1.0000)
+  - mug rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshFilter,MeshRenderer,Rigidbody]
+      meshBounds center=(0.0000,0.0000,0.0000) size=(0.1283,0.0968,0.0890) mesh=mug
+      Rigidbody kinematic=False gravity=True
+    - [BuildingBlock] Cube (1) rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.1000,0.1000,0.1000) [Transform,BuildingBlock,MeshFilter,MeshRenderer,BoxCollider,Rigidbody,Grabbable]
+        meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) mesh=Cube
+        box center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) trigger=True
+        Grabbable target=[BuildingBlock] Cube (1) rb=[BuildingBlock] Cube (1)
+        Rigidbody kinematic=True gravity=False
+      - [BuildingBlock] HandGrabInstallationRoutine rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BuildingBlock,HandGrabInteractable,GrabInteractable]
+          HandGrabInteractable poses=[] rb=[BuildingBlock] Cube (1) align=0 types=3
+      - CustomGrabPose rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,HandGrabPose,HandGrabInteractable]
+          HandGrabPose hand=0 freedom=[2,2,1,1,0] joints=19 ovrOffset=0 surface=none relTo=none localRot=(0.00000,0.00000,0.00000,1.00000)
+          HandGrabInteractable poses=[] rb=[BuildingBlock] Cube (1) align=1 types=3
+        - OpenXRGhost-HandLeft(Clone) rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,HandGhost,HandPuppet]
+          - OpenXRLeftHand rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+            - LeftHand rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,SkinnedMeshRenderer]
+            - OXRLeftHand rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+              - XRHand_Wrist rootLocalPos=(-0.0150,0.0060,-0.0060) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+                - XRHand_IndexMetacarpal rootLocalPos=(-0.0130,0.0050,-0.0024) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+                  - XRHand_IndexProximal rootLocalPos=(-0.0126,0.0053,0.0036) rootLocalRot=(17.7826,8.3983,356.5262) localScale=(1.0000,1.0000,1.0000) [Transform]
+                    - XRHand_IndexIntermediate rootLocalPos=(-0.0121,0.0041,0.0072) rootLocalRot=(32.7825,7.2879,359.0868) localScale=(1.0000,0.9999,0.9999) [Transform]
+                      - XRHand_IndexDistal rootLocalPos=(-0.0119,0.0028,0.0092) rootLocalRot=(32.3883,3.7479,359.0635) localScale=(1.0000,1.0000,1.0000) [Transform]
+                        - XRHand_IndexTip rootLocalPos=(-0.0118,0.0017,0.0111) rootLocalRot=(32.3883,3.7479,359.0635) localScale=(1.0000,1.0000,1.0000) [Transform]
+                - XRHand_LittleMetacarpal rootLocalPos=(-0.0173,0.0051,-0.0026) rootLocalRot=(5.3710,344.6166,23.4181) localScale=(1.0000,1.0000,1.0000) [Transform]
+                  - XRHand_LittleProximal rootLocalPos=(-0.0185,0.0046,0.0018) rootLocalRot=(0.2690,336.8641,11.6308) localScale=(1.0000,1.0000,1.0001) [Transform]
+                    - XRHand_LittleIntermediate rootLocalPos=(-0.0197,0.0046,0.0046) rootLocalRot=(41.5226,347.4203,23.9977) localScale=(1.0000,1.0000,0.9999) [Transform]
+                      - XRHand_LittleDistal rootLocalPos=(-0.0200,0.0033,0.0061) rootLocalRot=(50.2766,3.8771,35.7613) localScale=(1.0000,1.0000,1.0000) [Transform]
+                        - XRHand_LittleTip rootLocalPos=(-0.0200,0.0017,0.0076) rootLocalRot=(50.2766,3.8771,35.7613) localScale=(1.0000,1.0000,1.0000) [Transform]
+                - XRHand_MiddleMetacarpal rootLocalPos=(-0.0146,0.0052,-0.0026) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+                  - XRHand_MiddleProximal rootLocalPos=(-0.0148,0.0057,0.0036) rootLocalRot=(21.8755,358.8080,0.9077) localScale=(1.0000,1.0000,1.0000) [Transform]
+                    - XRHand_MiddleIntermediate rootLocalPos=(-0.0149,0.0041,0.0075) rootLocalRot=(45.4454,359.4215,2.6959) localScale=(1.0000,1.0000,1.0000) [Transform]
+                      - XRHand_MiddleDistal rootLocalPos=(-0.0149,0.0022,0.0095) rootLocalRot=(41.7821,358.6920,6.8317) localScale=(1.0000,1.0000,1.0000) [Transform]
+                        - XRHand_MiddleTip rootLocalPos=(-0.0150,0.0006,0.0114) rootLocalRot=(41.7821,358.6920,6.8317) localScale=(1.0000,1.0000,1.0000) [Transform]
+                - XRHand_Palm rootLocalPos=(-0.0149,0.0059,-0.0012) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+                - XRHand_RingMetacarpal rootLocalPos=(-0.0165,0.0054,-0.0025) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform]
+                  - XRHand_RingProximal rootLocalPos=(-0.0167,0.0053,0.0029) rootLocalRot=(9.8281,350.5519,5.6380) localScale=(1.0000,1.0000,1.0000) [Transform]
+                    - XRHand_RingIntermediate rootLocalPos=(-0.0174,0.0047,0.0067) rootLocalRot=(44.3497,358.1055,13.9998) localScale=(1.0000,0.9999,0.9999) [Transform]
+                      - XRHand_RingDistal rootLocalPos=(-0.0174,0.0028,0.0086) rootLocalRot=(53.3154,8.0112,22.5197) localScale=(0.9999,1.0000,1.0000) [Transform]
+                        - XRHand_RingTip rootLocalPos=(-0.0173,0.0010,0.0101) rootLocalRot=(53.3123,8.0090,22.5180) localScale=(1.0000,1.0001,1.0000) [Transform]
+                - XRHand_ThumbMetacarpal rootLocalPos=(-0.0120,0.0044,-0.0026) rootLocalRot=(21.1940,43.5257,290.7157) localScale=(1.0000,1.0000,1.0000) [Transform]
+                  - XRHand_ThumbProximal rootLocalPos=(-0.0099,0.0032,-0.0004) rootLocalRot=(24.5013,15.3878,289.2088) localScale=(1.0000,1.0000,1.0000) [Transform]
+                    - XRHand_ThumbDistal rootLocalPos=(-0.0091,0.0018,0.0026) rootLocalRot=(32.8226,2.2200,273.7041) localScale=(1.0000,1.0000,1.0000) [Transform]
+                      - XRHand_ThumbTip rootLocalPos=(-0.0089,0.0005,0.0047) rootLocalRot=(32.8226,2.2200,273.7041) localScale=(1.0000,1.0000,1.0000) [Transform]
+=== TARGET knife1 found=True
+  worldPos=(0.8716,0.0520,2.6762) worldRot=(0.0000,0.0000,0.0000) lossyScale=(0.1000,0.1000,0.1000)
+  - knife1 rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.1000,0.1000,0.1000) [Transform,MeshFilter,MeshRenderer]
+      meshBounds center=(0.0995,0.0000,-0.2904) size=(0.5766,0.1243,3.3721) mesh=knife1
+    - [BuildingBlock] Cube (2) rootLocalPos=(0.1000,0.0500,-0.2000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BuildingBlock,MeshFilter,MeshRenderer,BoxCollider,Rigidbody,Grabbable]
+        meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) mesh=Cube
+        box center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) trigger=True
+        Grabbable target=[BuildingBlock] Cube (2) rb=[BuildingBlock] Cube (2)
+        Rigidbody kinematic=True gravity=False
+      - [BuildingBlock] HandGrabInstallationRoutine rootLocalPos=(0.1000,0.0500,-0.2000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BuildingBlock,HandGrabInteractable,GrabInteractable]
+          HandGrabInteractable poses=[] rb=[BuildingBlock] Cube (2) align=0 types=3
+=== TARGET knife2 found=True
+  worldPos=(0.8100,0.0590,2.5789) worldRot=(0.0000,0.0000,0.0000) lossyScale=(0.1000,0.1000,0.1000)
+  - knife2 rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.1000,0.1000,0.1000) [Transform,MeshFilter,MeshRenderer]
+      meshBounds center=(0.0311,0.0000,-0.2822) size=(0.2871,0.1243,3.2732) mesh=knife2
+    - [BuildingBlock] Cube (3) rootLocalPos=(0.0500,-0.3500,0.2100) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BuildingBlock,MeshFilter,MeshRenderer,BoxCollider,Rigidbody,Grabbable]
+        meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) mesh=Cube
+        box center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) trigger=True
+        Grabbable target=[BuildingBlock] Cube (3) rb=[BuildingBlock] Cube (3)
+        Rigidbody kinematic=True gravity=False
+      - [BuildingBlock] HandGrabInstallationRoutine rootLocalPos=(0.0500,-0.3500,0.2100) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BuildingBlock,HandGrabInteractable,GrabInteractable]
+          HandGrabInteractable poses=[] rb=[BuildingBlock] Cube (3) align=0 types=3
+=== TARGET plate found=True
+  worldPos=(0.6009,0.0690,2.7075) worldRot=(0.0000,0.0000,0.0000) lossyScale=(1.0000,1.0000,1.0000)
+  - plate rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshFilter,MeshRenderer]
+      meshBounds center=(0.0000,-0.0020,0.0000) size=(0.2969,0.0380,0.3000) mesh=low-plate
+    - [BuildingBlock] Cube (4) rootLocalPos=(0.0030,-0.0160,-0.0270) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.1000,0.1000,0.1000) [Transform,BuildingBlock,MeshFilter,MeshRenderer,BoxCollider,Rigidbody,Grabbable]
+        meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) mesh=Cube
+        box center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) trigger=True
+        Grabbable target=[BuildingBlock] Cube (4) rb=[BuildingBlock] Cube (4)
+        Rigidbody kinematic=True gravity=False
+      - [BuildingBlock] HandGrabInstallationRoutine rootLocalPos=(0.0030,-0.0160,-0.0270) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BuildingBlock,HandGrabInteractable,GrabInteractable]
+          HandGrabInteractable poses=[] rb=[BuildingBlock] Cube (4) align=0 types=3
+=== TARGET bowl found=True
+  worldPos=(1.0471,0.0470,2.5277) worldRot=(0.0000,0.0000,0.0000) lossyScale=(1.0000,1.0000,1.0000)
+  - bowl rootLocalPos=(0.0000,0.0000,0.0000) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,MeshFilter,MeshRenderer]
+      meshBounds center=(-0.0013,0.0367,-0.0001) size=(0.1635,0.0807,0.1652) mesh=bowl
+    - [BuildingBlock] Cube (5) rootLocalPos=(0.0020,0.0600,-0.0040) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(0.1000,0.1000,0.1000) [Transform,BuildingBlock,MeshFilter,MeshRenderer,BoxCollider,Rigidbody,Grabbable]
+        meshBounds center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) mesh=Cube
+        box center=(0.0000,0.0000,0.0000) size=(1.0000,1.0000,1.0000) trigger=True
+        Grabbable target=[BuildingBlock] Cube (5) rb=[BuildingBlock] Cube (5)
+        Rigidbody kinematic=True gravity=False
+      - [BuildingBlock] HandGrabInstallationRoutine rootLocalPos=(0.0020,0.0600,-0.0040) rootLocalRot=(0.0000,0.0000,0.0000) localScale=(1.0000,1.0000,1.0000) [Transform,BuildingBlock,HandGrabInteractable,GrabInteractable]
+          HandGrabInteractable poses=[] rb=[BuildingBlock] Cube (5) align=0 types=3
