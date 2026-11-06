@@ -19,15 +19,3 @@ Initialising UDS system complete:
   - Command buffer size: 8192
   - Hashmap size: 4194304
 Starting Unity Data Store Application
-[Error] Failed to free block of size 8985 - size delta was 47!
-0x00007ff7d826ac75 (Unity.DataStore) uds_wait_handle_complete
-0x00007ff7d822f835 (Unity.DataStore) uds_cleanup
-0x00007ff7d8258578 (Unity.DataStore) uds_wait_handle_complete
-0x00007ff7d824995b (Unity.DataStore) udebug_set_file_logging_level
-0x00007ff7d8231e4a (Unity.DataStore) uds_cleanup
-0x00007ff7d82025f4 (Unity.DataStore) 
-0x00007ff7d822207a (Unity.DataStore) uds_cleanup
-0x00007ff7d82661d8 (Unity.DataStore) uds_wait_handle_complete
-0x00007ff94d07dda7 (KERNEL32) BaseThreadInitThunk
-0x00007ff94eef9c5c (ntdll) RtlUserThreadStart
-
