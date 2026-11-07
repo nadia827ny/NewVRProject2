@@ -1,51 +1,40 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nadia" at "2026-11-06T23:26:54.1520961Z"
-Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 16208 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nyith" at "2026-11-07T00:27:29.2147971Z"
+Built from '6000.6/staging' branch; Version is '6000.6.4f1 (12bfff696524) revision 1228799'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 65254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-06T23:26:54Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15128, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              c6709c654c074322ac6cee8906d01a34
-  Correlation Id:          61ed46fa77c049b06622a144c1e0185c
-  External correlation Id: 8277239756541762428
-  Machine Id:              qWafhisASDQIfrFUAICso/rlL1w=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nadia" (connect: 0.00s, validation: 0.01s, handshake: 0.11s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nadia-notifications" at "2026-11-06T23:26:54.2661973Z"
-[Licensing::Module] Licensing Background thread has ended after 0.11s
+Date: 2026-11-07T00:27:29Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorkerHW0
 -projectPath
-C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2
+C:/Users/nyith/OneDrive/Desktop/NADVR/NewVRProject2
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-51807
+49189
 -parentPid
-15700
+150160
 -analyticsCloudUserId
-anonymous
+18968365441778
 -analyticsLocalProjectId
 3f0b7807a96a87c4f8a50daa469cb6ec
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
-f0059bd3c9bbbae27c00e5112c1de75655c837bd
+c70b3b64ab0a5abb22a0cf5c90acf6b682236830
 -cbmMachineId
-qWafhisASDQIfrFUAICso/rlL1w=
+z2eGkrHF1T6eS/8zXLe9/LTgWmQ=
 -noDiagnosticSwitchPersistentStore
 -job-worker-count
-5
+15
 -background-job-worker-count
 8
 -asset-garbage-collectors
@@ -53,8 +42,8 @@ qWafhisASDQIfrFUAICso/rlL1w=
 -force-d3d12
 -name
 AssetImport
-Successfully changed project path to: C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2
-C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2
+Successfully changed project path to: C:/Users/nyith/OneDrive/Desktop/NADVR/NewVRProject2
+C:/Users/nyith/OneDrive/Desktop/NADVR/NewVRProject2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -92,63 +81,73 @@ C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [34760]  Target information:
+Player connection [141756]  Target information:
 
-Player connection [34760]  * "[IP] 216.37.101.145 [Port] 0 [Flags] 2 [Guid] 1682943472 [EditorId] 1682943472 [Version] 1048832 [Id] WindowsEditor(7,Nadiasurface) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [141756]  * "[IP] 216.37.96.62 [Port] 0 [Flags] 2 [Guid] 3971772497 [EditorId] 3971772497 [Version] 1048832 [Id] WindowsEditor(7,HiveAlienware-4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34760] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34760] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [141756] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [141756] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
-[Physics::Module] Selected backend.
+Active build profile path: `Assets/Settings/Build Profiles/Meta Quest.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `1`
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-nyith"
+[Licensing::IpcConnector] LicenseClient-nyith channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nyith-6000.6.4" at "2026-11-07T00:27:30.0322548Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26584, path: "C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              ed9b189a4a7b4bc8ae7a5f3975e7d549
+  Correlation Id:          9869059832ea1937095edceff71b7ab2
+  External correlation Id: 6493351665308607177
+  Machine Id:              z2eGkrHF1T6eS/8zXLe9/LTgWmQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nyith-6000.6.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nyith-6000.6.4-notifications" at "2026-11-07T00:27:30.039478Z"
+[Licensing::Module] Licensing Background thread has ended after 0.82s
+[Licensing::Module] Licensing is initialized (took 0.37s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968366438648-brandedrealities-UnitXXXX
+  Product: Unity Pro
+  Type: Assigned
+  Expiration: 2027-01-17T00:00:00Z
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Refreshing native plugins compatible for Editor in 24.51 ms, found 11 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+[Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Active build profile path: `Assets/Settings/Build Profiles/Meta Quest.asset`
-Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 2476045025254-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Got setting from build profile YAML, name `m_BuildTarget`, value `13`
-Got setting from build profile YAML, name `m_Subtarget`, value `0`
-Refreshing native plugins compatible for Editor in 84.71 ms, found 11 plugins.
-Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 2 native plugins for Editor in 6.22 ms.
-Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+Initialize engine version: 6000.6.4f1 (12bfff696524)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nyith/OneDrive/Desktop/NADVR/NewVRProject2/Assets
 Forcing GfxDevice: Direct3D 12
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
-    Version:         Direct3D 12 [level 12.1]
-    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
-    Vendor:          Intel
-    VRAM:            8104 MB
-    App VRAM Budget: 7442 MB
-    Driver:          32.0.101.7085
-    Unified Memory Architecture
-    Cache Coherent UMA
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:          NVIDIA
+    VRAM:            16048 MB
+    App VRAM Budget: 15280 MB
+    Driver:          32.0.16.1060
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
@@ -525,44 +524,29 @@ Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
-Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 CodeReloadManager initialized
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.006894 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003242 seconds.
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Native extension for Android target not found
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -703,25 +687,25 @@ Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
 Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  6.383 seconds
-Domain Reload Profiling: 7866ms
-	BeginReloadAssembly (341ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (163ms)
-	LoadAllAssembliesAndSetupDomain (928ms)
-		LoadAssemblies (332ms)
-		TypeCache.Refresh (654ms)
-			TypeCache.ScanAssembly (615ms)
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 846ms
+	BeginReloadAssembly (102ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (100ms)
+		TypeCache.Refresh (183ms)
+			TypeCache.ScanAssembly (171ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (6391ms)
+	FinalizeReload (399ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (148ms)
-			BeforeProcessingInitializeOnLoad (718ms)
-			ProcessInitializeOnLoadAttributes (3885ms)
-			ProcessInitializeOnLoadMethodAttributes (1400ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Initializing Unity extensions:
@@ -752,17 +736,15 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 12.73 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 7.69 ms, found 11 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Native extension for Android target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 11.50 ms, found 11 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.93 ms, found 11 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -774,226 +756,1119 @@ Scripting: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.208 seconds
-Domain Reload Profiling: 4624ms
-	BeginReloadAssembly (693ms)
-		DisableScriptedObjects (82ms)
-		CreateAndSetChildDomain (101ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (140ms)
-	LoadAllAssembliesAndSetupDomain (1526ms)
-		LoadAssemblies (805ms)
-		TypeCache.Refresh (297ms)
-			TypeCache.ScanAssembly (264ms)
-		AnalyzeDomain (169ms)
-			BuildScriptInfoCaches (157ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (2211ms)
+- Finished resetting the current domain, in  1.184 seconds
+Domain Reload Profiling: 2118ms
+	BeginReloadAssembly (208ms)
+		DisableScriptedObjects (37ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (658ms)
+		LoadAssemblies (307ms)
+		TypeCache.Refresh (131ms)
+			TypeCache.ScanAssembly (116ms)
+		AnalyzeDomain (75ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1186ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (1187ms)
-			ProcessInitializeOnLoadMethodAttributes (244ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (3ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (747ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 AcceleratorClientConnectionCallback - disconnected - :0
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 24.14 ms, found 11 plugins.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.17 ms, found 11 plugins.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7203 unused Assets / (7.5 MB). Loaded Objects now: 8230.
-Memory consumption went from 368.3 MB to 360.8 MB.
-Total: 25.935000 ms (FindLiveObjects: 1.677000 ms CreateObjectMapping: 0.819500 ms MarkObjects: 19.249500 ms  DeleteObjects: 3.610600 ms)
+Unloading 7207 unused Assets / (4.6 MB). Loaded Objects now: 8217.
+Memory consumption went from 381.2 MB to 376.6 MB.
+Total: 8.694900 ms (FindLiveObjects: 0.530700 ms CreateObjectMapping: 0.270900 ms MarkObjects: 6.448400 ms  DeleteObjects: 1.235600 ms)
 
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 21.36 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 5.19 ms, found 11 plugins.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (3.3 MB). Loaded Objects now: 8230.
-Memory consumption went from 360.2 MB to 356.9 MB.
-Total: 25.469200 ms (FindLiveObjects: 1.123700 ms CreateObjectMapping: 0.387100 ms MarkObjects: 22.390400 ms  DeleteObjects: 0.901800 ms)
+Unloading 29 unused Assets / (3.3 MB). Loaded Objects now: 8217.
+Memory consumption went from 372.9 MB to 369.5 MB.
+Total: 7.693000 ms (FindLiveObjects: 0.747100 ms CreateObjectMapping: 0.098700 ms MarkObjects: 6.281300 ms  DeleteObjects: 0.354400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 5.24 ms, found 11 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8217.
+Memory consumption went from 373.2 MB to 369.9 MB.
+Total: 7.558600 ms (FindLiveObjects: 0.436500 ms CreateObjectMapping: 0.102400 ms MarkObjects: 6.448200 ms  DeleteObjects: 0.359900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 5.80 ms, found 11 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8217.
+Memory consumption went from 373.7 MB to 370.4 MB.
+Total: 9.182400 ms (FindLiveObjects: 0.457200 ms CreateObjectMapping: 0.151400 ms MarkObjects: 7.658500 ms  DeleteObjects: 0.688700 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
   graphicsApiMask: 2097152 -> 2359296
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:20.8903247Z
-  Time since last request: 604903.00169309997 seconds.
-  importAddress: GUID: ef66d3256f1c3f641a845f9c1968dc13 - Path: Assets/kitchen props/materials/china-plate.mat - Importer: PreviewImporter
-Importing 'GUID: ef66d3256f1c3f641a845f9c1968dc13 - Path: Assets/kitchen props/materials/china-plate.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: ef66d3256f1c3f641a845f9c1968dc13' -> (Import Result ID: 'eccc63528c4f1f596a2c216af49f7469') in 4.700 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b24d4479673733d1953d709b39488f8 DependenciesID=0d46445f83e03536f27e7165b7ac1f57 StaticDependenciesID=a83e209f0c7494f4510aea7064e368ce 
+  Time of request: 2026-11-07T00:32:47.6605896Z
+  Time since last request: 1906414.43364230007865 seconds.
+  importAddress: GUID: 5e6cbd92db86f4b18aec3ed561671858 - Path: Assets/Settings/Mobile_RPAsset.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5e6cbd92db86f4b18aec3ed561671858 - Path: Assets/Settings/Mobile_RPAsset.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5e6cbd92db86f4b18aec3ed561671858' -> (Import Result ID: '218c58e521e7298162bc7bf16d9c7ffb') in 0.104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1eb56c4fbc1d8aa319983f990f54fd5d DependenciesID=1507f1492fbda042857b14cbf9723188 StaticDependenciesID=9f3ad5c1df975e4731e2f0e926758cb9 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:25.6478531Z
-  Time since last request: 0.0047318 seconds.
-  importAddress: GUID: e451e71003a14534abad869c41c8e733 - Path: Assets/kitchen props/materials/mug.mat - Importer: PreviewImporter
-Importing 'GUID: e451e71003a14534abad869c41c8e733 - Path: Assets/kitchen props/materials/mug.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: e451e71003a14534abad869c41c8e733' -> (Import Result ID: '421b9f75235c8efabd9d1eb95591d42a') in 2.751 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1339d3ea5236138dde85cc0e8e93d9ca DependenciesID=1a0daaab95e6dd07cbb874b6fe4dd23a StaticDependenciesID=662877d70f8d1eeff7a9d96836b48048 
+  Time of request: 2026-11-07T00:32:47.782874Z
+  Time since last request: 0.0001344 seconds.
+  importAddress: GUID: a862ec6e80f9b264e9ed33b2baf59d17 - Path: Assets/Resources/OVRBuildConfig.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a862ec6e80f9b264e9ed33b2baf59d17 - Path: Assets/Resources/OVRBuildConfig.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a862ec6e80f9b264e9ed33b2baf59d17' -> (Import Result ID: '325b7990884d5bc6716b387f30cff6a5') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5c3b9ba7f1918432dcd46f72c9c3d09 DependenciesID=033b08b2ed97425486570a089a042a83 StaticDependenciesID=890edae2e58abac0ef6ac470215fc207 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:28.4793169Z
-  Time since last request: 0.0062692 seconds.
-  importAddress: GUID: bb5634b2ffdc5454fa1e02c337bfa831 - Path: Assets/kitchen props/materials/coffee-cups.mat - Importer: PreviewImporter
-Importing 'GUID: bb5634b2ffdc5454fa1e02c337bfa831 - Path: Assets/kitchen props/materials/coffee-cups.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: bb5634b2ffdc5454fa1e02c337bfa831' -> (Import Result ID: '65a8b2c4a8fba7c73ee32c53bee13931') in 4.184 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94d82deade3125645ab3370fa9100dda DependenciesID=e2c6732bbf6f447d0376703d5e802111 StaticDependenciesID=440e738f1aa82d3df3489e1c5b89235e 
+  Time of request: 2026-11-07T00:32:47.7963473Z
+  Time since last request: 0.0002012 seconds.
+  importAddress: GUID: 80e27aa3b5097034bb93fd0561a7862e - Path: Assets/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 80e27aa3b5097034bb93fd0561a7862e - Path: Assets/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 80e27aa3b5097034bb93fd0561a7862e' -> (Import Result ID: 'b9e35aff01f95eedf3c90105ad54dca9') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef0050d5e73fe1ef57e01b774c7eb859 DependenciesID=b1d4a01920d8894421d2a403d6588f1e StaticDependenciesID=3e6ad80716616734c3de98e4a303ac5e 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:32.9833531Z
-  Time since last request: 0.1736797 seconds.
-  importAddress: GUID: 5a15071f876ec48419ad19e197a9a290 - Path: Assets/kitchen props/materials/Screenshot 2026-11-06 000939.png - Importer: PreviewImporter
-Importing 'GUID: 5a15071f876ec48419ad19e197a9a290 - Path: Assets/kitchen props/materials/Screenshot 2026-11-06 000939.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 5a15071f876ec48419ad19e197a9a290' -> (Import Result ID: 'efb540c396af46a3252adc2bbe494ae6') in 0.130 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d00f98c6a8696d300f3d507af800d07 DependenciesID=7eb7a84439664cc10b48a96fd1330781 StaticDependenciesID=3310690950c120133a58b4a5e5cbc2d8 
+  Time of request: 2026-11-07T00:32:47.8237161Z
+  Time since last request: 0.0002174 seconds.
+  importAddress: GUID: f36035944a3b86c45862afe62f01e6ad - Path: Assets/Resources/DevAgentSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f36035944a3b86c45862afe62f01e6ad - Path: Assets/Resources/DevAgentSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f36035944a3b86c45862afe62f01e6ad' -> (Import Result ID: '71ecef8be14c08f8eb4024862b6531bb') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40f4f818317546b4831776301eaf785d DependenciesID=b8ed5b41998d7d05690b4f4722654b5c StaticDependenciesID=c8ff1ae6f2057b2bca155688abb497fe 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:33.1922525Z
-  Time since last request: 0.0043205 seconds.
-  importAddress: GUID: e2fe8a96912f705428c233a8d460f363 - Path: Assets/kitchen props/materials/Sponge.mat - Importer: PreviewImporter
-Importing 'GUID: e2fe8a96912f705428c233a8d460f363 - Path: Assets/kitchen props/materials/Sponge.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: e2fe8a96912f705428c233a8d460f363' -> (Import Result ID: '061a13d603b00317beb7106789e49d3c') in 1.081 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f65c27cc61e30cfe6ce311d5616760f DependenciesID=7a59fa67442c7d80dfab6c0919065faf StaticDependenciesID=f492de16387e19f4ea792fe4eb4b7fdf 
+  Time of request: 2026-11-07T00:35:33.927144Z
+  Time since last request: 166.07863979999999 seconds.
+  importAddress: GUID: 9c53962885c2c4f449125a979d6ad240 - Path: Assets/Scenes - Importer: PreviewImporter
+Importing 'GUID: 9c53962885c2c4f449125a979d6ad240 - Path: Assets/Scenes - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9c53962885c2c4f449125a979d6ad240' -> (Import Result ID: '8cdc590da033a6179ea0fcf556847852') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=350f5c5e13b2998d53017bdd858ee510 DependenciesID=3be7dac1924527415a68f33c49ec8a2b StaticDependenciesID=8458c9e472a66f3c61ecb77692179f6a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:35:45.1481306Z
+  Time since last request: 11.2091364 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '1b47c14112ef375aa435e0b26649e7fc') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=8f7fb010802d2628873ed7fa0c18ee62 StaticDependenciesID=d2f70e9bc212723314f81f7acbed4c27 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:35:46.0823665Z
+  Time since last request: 0.9218921 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Opening scene 'Assets/Scenes/simple.unity additively'
+Loaded scene 'Assets/Scenes/simple.unity'
+	Deserialize:            0.547 ms
+	Integration:            0.807 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   1.365 ms
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '49442879d45a492141276cb5cf5dd341') in 0.061 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b4b2969e8e00cb70c8def46aa6ff0d83 DependenciesID=1dd50a0404de8c787a9e32f16e229b52 StaticDependenciesID=ae07cc2eea2e9efc273683dbd53e56ed 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 6.06 ms, found 11 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8235.
+Memory consumption went from 388.2 MB to 384.9 MB.
+Total: 7.895700 ms (FindLiveObjects: 0.426200 ms CreateObjectMapping: 0.122900 ms MarkObjects: 6.742600 ms  DeleteObjects: 0.382300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:36:26.7663099Z
+  Time since last request: 40.6122133 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Opening scene 'Assets/Scenes/simple.unity additively'
+Loaded scene 'Assets/Scenes/simple.unity'
+	Deserialize:            3.353 ms
+	Integration:            3.247 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   6.614 ms
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'c04e3294fcf5964f9587ccce237b4c94') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b22761736276ea434a6bcd2bc57ce8d DependenciesID=9b72ce4177307e4eafab1a397fa5263d StaticDependenciesID=14a48b8856c6282893f61a583eb2db48 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:36:37.2421961Z
+  Time since last request: 10.4120986 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Opening scene 'Assets/Scenes/simple.unity additively'
+Loaded scene 'Assets/Scenes/simple.unity'
+	Deserialize:            3.959 ms
+	Integration:            113.579 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   117.577 ms
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'f9aeab6f189a0c1c7a689ff59df7da73') in 1.965 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd3e3dc456d2af07cf29bbb5f55399c4 DependenciesID=f51b58d2ccd217625950ae1d855747e4 StaticDependenciesID=baa176ca412c2dab53edbff67bf11b48 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11703
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:37:41.4827655Z
+  Time since last request: 62.2506078 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Opening scene 'Assets/Scenes/simple.unity additively'
+Loaded scene 'Assets/Scenes/simple.unity'
+	Deserialize:            1.177 ms
+	Integration:            64.789 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   65.974 ms
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'c68737d6bbc1ddd965e2ccc23c4153ec') in 1.712 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ec856b057c55da5b2601d3274cfd1c3 DependenciesID=dd5a0cba0b237aa881e5df20ec7ff976 StaticDependenciesID=84ab4f978a0236fd8f6968befc20fa1b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11703
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 6.06 ms, found 11 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (3.4 MB). Loaded Objects now: 8243.
+Memory consumption went from 397.7 MB to 394.3 MB.
+Total: 17.166800 ms (FindLiveObjects: 0.972300 ms CreateObjectMapping: 0.149400 ms MarkObjects: 15.248000 ms  DeleteObjects: 0.446400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:38:09.587066Z
+  Time since last request: 26.3720038 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Opening scene 'Assets/Scenes/simple.unity additively'
+Loaded scene 'Assets/Scenes/simple.unity'
+	Deserialize:            1.153 ms
+	Integration:            58.314 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.063 ms
+	Total Operation Time:   59.531 ms
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'ea4d117fa110c121960a5cec97f5b5ec') in 1.737 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4604e78ee95b8b649377f7ce85767b76 DependenciesID=3daa6884d4225e63a7c1096bea13a9bf StaticDependenciesID=69253acfc871261f39614b2e8c8b4ff8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11703
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 6.31 ms, found 11 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (3.4 MB). Loaded Objects now: 8243.
+Memory consumption went from 397.8 MB to 394.5 MB.
+Total: 13.762300 ms (FindLiveObjects: 0.798100 ms CreateObjectMapping: 0.148900 ms MarkObjects: 11.939900 ms  DeleteObjects: 0.544800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 6.80 ms, found 11 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8243.
+Memory consumption went from 398.0 MB to 394.6 MB.
+Total: 16.251400 ms (FindLiveObjects: 0.474100 ms CreateObjectMapping: 0.134200 ms MarkObjects: 13.783800 ms  DeleteObjects: 1.553300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:42:11.3432714Z
+  Time since last request: 239.9957727 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Opening scene 'Assets/Scenes/simple.unity additively'
+Loaded scene 'Assets/Scenes/simple.unity'
+	Deserialize:            1.131 ms
+	Integration:            54.888 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.107 ms
+	Total Operation Time:   56.127 ms
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'cf7460d5e2237140f353baa9081651d0') in 1.687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=778e92c0a7fb2f3f9e964ebbccebabbe DependenciesID=241278526a8cc8014cca1feca101ede5 StaticDependenciesID=5adb780d39129e7a59997da3c840526d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11703
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:45:22.8611596Z
+  Time since last request: 189.80628419999999 seconds.
+  importAddress: GUID: a4b22f7b734ff2544981899852b7cf84 - Path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a4b22f7b734ff2544981899852b7cf84 - Path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a4b22f7b734ff2544981899852b7cf84' -> (Import Result ID: '5a9a5770bce200f6f71e6f994affb700') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=088d3f80b4ee2423b8cdaf924143880c DependenciesID=c12b96e9cc8ce7be6d0c4b77e95da0fd StaticDependenciesID=5d7ccba4d2e5e848594d067ecfad8850 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.55 ms, found 17 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.06 ms, found 17 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 2973ms
+	BeginReloadAssembly (1322ms)
+		DisableScriptedObjects (57ms)
+		CreateAndSetChildDomain (1070ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (376ms)
+		TypeCache.Refresh (47ms)
+			TypeCache.ScanAssembly (35ms)
+		AnalyzeDomain (126ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (904ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 8.48 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7542 unused Assets / (8.2 MB). Loaded Objects now: 8689.
+Memory consumption went from 402.9 MB to 394.7 MB.
+Total: 11.856800 ms (FindLiveObjects: 0.719300 ms CreateObjectMapping: 0.291800 ms MarkObjects: 8.849400 ms  DeleteObjects: 1.659600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.14 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 397.5 MB to 394.1 MB.
+Total: 7.693400 ms (FindLiveObjects: 0.483600 ms CreateObjectMapping: 0.119500 ms MarkObjects: 6.412500 ms  DeleteObjects: 0.371000 ms)
+
+Prepare: number of updated asset objects reloaded= 79
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.47 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 397.8 MB to 394.4 MB.
+Total: 9.138300 ms (FindLiveObjects: 0.488500 ms CreateObjectMapping: 0.110100 ms MarkObjects: 7.867300 ms  DeleteObjects: 0.364200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 7.32 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 397.9 MB to 394.6 MB.
+Total: 8.001200 ms (FindLiveObjects: 0.587500 ms CreateObjectMapping: 0.142700 ms MarkObjects: 6.512300 ms  DeleteObjects: 0.391400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 11.55 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.2 MB). Loaded Objects now: 8689.
+Memory consumption went from 398.1 MB to 394.9 MB.
+Total: 10.546500 ms (FindLiveObjects: 0.601400 ms CreateObjectMapping: 0.162100 ms MarkObjects: 9.051100 ms  DeleteObjects: 0.409100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 10.00 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 398.3 MB to 394.9 MB.
+Total: 7.887800 ms (FindLiveObjects: 0.489300 ms CreateObjectMapping: 0.109400 ms MarkObjects: 6.587300 ms  DeleteObjects: 0.391400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T00:52:16.5217873Z
+  Time since last request: 413.63345670000001 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '5837f9aa4a2e14ea391cfe97ee4de51b') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=25ebe39703f16559bedd8312d178954d StaticDependenciesID=956a9abdae8f112775a2bb41d270f7d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 7.55 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 398.4 MB to 395.0 MB.
+Total: 9.300200 ms (FindLiveObjects: 0.544200 ms CreateObjectMapping: 0.132500 ms MarkObjects: 7.841700 ms  DeleteObjects: 0.430200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.16 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 398.6 MB to 395.2 MB.
+Total: 9.017400 ms (FindLiveObjects: 0.514300 ms CreateObjectMapping: 0.117800 ms MarkObjects: 7.696800 ms  DeleteObjects: 0.385500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.15 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 398.7 MB to 395.3 MB.
+Total: 8.337800 ms (FindLiveObjects: 1.007900 ms CreateObjectMapping: 0.152800 ms MarkObjects: 6.479300 ms  DeleteObjects: 0.379000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 9.51 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8689.
+Memory consumption went from 398.9 MB to 395.6 MB.
+Total: 7.890500 ms (FindLiveObjects: 0.545400 ms CreateObjectMapping: 0.151700 ms MarkObjects: 6.428000 ms  DeleteObjects: 0.433700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.27 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 399.0 MB to 395.6 MB.
+Total: 8.554100 ms (FindLiveObjects: 0.640500 ms CreateObjectMapping: 0.127400 ms MarkObjects: 7.038300 ms  DeleteObjects: 0.401600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:00:22.1111908Z
+  Time since last request: 485.57158939999999 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '94bf172e3f726fbe826715bd12bff1be') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=200beca369a172dcf96bb0fbcacc4063 StaticDependenciesID=d399cc3e10dda4818e1d54cb22ba5c75 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:01:06.4045883Z
+  Time since last request: 44.2782345 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'a729976bad68a8313cc1ea66359812a9') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=6313175f2e589e62b6f0e5ca1f37fd78 StaticDependenciesID=82fc68d97f427bc62279391bace9eb26 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:02:09.5159399Z
+  Time since last request: 63.097742 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'cba5dd49a596e92115a865c5fb0acbbe') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=0d19754b16a8044a13deb2562191c8bb StaticDependenciesID=d0d126524867e749427ea0d88a46f42f 
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:04:48.5108224Z
+  Time since last request: 158.93003920000001 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '892d4e89399ca691f056e9d0227100ec') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=45b5ae826240f62c05257dd833cbc0b7 StaticDependenciesID=c43ad12ce0fd592068865b8c4868084c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:06:42.1661728Z
+  Time since last request: 113.6425438 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '17cd0525bf17689de7403795ebc4743c') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=f3ec31bfdd73381cb74b4869a17d55b0 StaticDependenciesID=098540fa9526a04da90f3ed70e89d45e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 9.85 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8689.
+Memory consumption went from 404.2 MB to 400.9 MB.
+Total: 10.097000 ms (FindLiveObjects: 0.880900 ms CreateObjectMapping: 0.164800 ms MarkObjects: 8.280800 ms  DeleteObjects: 0.427900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:10:52.474444Z
+  Time since last request: 250.29263739999999 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '21d211f4b7494595fcadc61b7a3e27fb') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=f18dd1d3df3eb3a8be66e159a45f52d9 StaticDependenciesID=fa266b1ad2582a18a5aad6ba77292447 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 11.98 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 404.4 MB to 401.0 MB.
+Total: 8.695500 ms (FindLiveObjects: 0.520700 ms CreateObjectMapping: 0.120300 ms MarkObjects: 7.290700 ms  DeleteObjects: 0.391100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.48 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8689.
+Memory consumption went from 404.5 MB to 401.1 MB.
+Total: 7.835900 ms (FindLiveObjects: 0.528100 ms CreateObjectMapping: 0.126000 ms MarkObjects: 6.454200 ms  DeleteObjects: 0.404800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 7.97 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8689.
+Memory consumption went from 404.7 MB to 401.4 MB.
+Total: 9.061400 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.119400 ms MarkObjects: 7.314000 ms  DeleteObjects: 0.723900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 11.71 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.2 MB). Loaded Objects now: 8689.
+Memory consumption went from 404.8 MB to 401.6 MB.
+Total: 11.511900 ms (FindLiveObjects: 1.248000 ms CreateObjectMapping: 0.361800 ms MarkObjects: 9.165400 ms  DeleteObjects: 0.416400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 11.19 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.2 MB). Loaded Objects now: 8689.
+Memory consumption went from 405.0 MB to 401.8 MB.
+Total: 9.613900 ms (FindLiveObjects: 0.727200 ms CreateObjectMapping: 0.141400 ms MarkObjects: 7.999600 ms  DeleteObjects: 0.414000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:21:26.0252617Z
+  Time since last request: 633.53681640000002 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '9214b4e393942134b945135abdd43ad7') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=a3dcded32a35ff9af1a0720737a10a06 StaticDependenciesID=17f963e87c94b1d3cd5b3fdf9f512baf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:22:20.5861771Z
+  Time since last request: 54.5475988 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '74d6489d9006d42f99325a77f07a537f') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=211aeff3a972ea01434436f215296265 StaticDependenciesID=1374098ef2c6ab6eae46ab1e446ce4e2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:22:45.5281924Z
+  Time since last request: 24.9283785 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '5f0b5032546cac67ef9beb0a88ff7bac') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=de138a1ae3594e8db87c6884f9fdd186 StaticDependenciesID=6d90e93d8656b5ee7e1563925c79d28a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:23:16.022069Z
+  Time since last request: 30.4808789 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '46c9400c9e2ea1dec2105391c7a93acc') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=4fe0c5de1325d2ea82646db38d526844 StaticDependenciesID=9e60408f7fe233290e636c9efbb1c0e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:27:22.1044035Z
+  Time since last request: 246.06833080000001 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: '210e07315ff866a35c773e44086b55a3') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=0b7e4932a03742f2df327c930363b077 StaticDependenciesID=2bd9f410a948b657d446dc3f099ef366 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:28:06.5646983Z
+  Time since last request: 44.4475431 seconds.
+  importAddress: GUID: 7e36bc3824e0fe3499a76a3315026985 - Path: Assets/UI/00 – Intro 1.png - Importer: PreviewImporter
+Importing 'GUID: 7e36bc3824e0fe3499a76a3315026985 - Path: Assets/UI/00 – Intro 1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Imported 'GUID: 7e36bc3824e0fe3499a76a3315026985' -> (Import Result ID: '72bdac602275a7b23e108ba302ed0c7d') in 0.126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48f8defb1cca1167f7b0c9f39ca314fe DependenciesID=54cbf958b2dcce7c83fbf6329c6f5ad0 StaticDependenciesID=48ddd8b5cc244bf2f0d4905a0d7e21b0 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:34.3294032Z
-  Time since last request: 0.0028333 seconds.
-  importAddress: GUID: e09be37e478cd87468745ea1734b7ce3 - Path: Assets/kitchen props/materials/Screenshot 2026-10-30 204321.png - Importer: PreviewImporter
-Importing 'GUID: e09be37e478cd87468745ea1734b7ce3 - Path: Assets/kitchen props/materials/Screenshot 2026-10-30 204321.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: e09be37e478cd87468745ea1734b7ce3' -> (Import Result ID: '9a885f07bab3006597cfa0d7a05f9fef') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f48c328122a476df3a04bbe0aa317d60 DependenciesID=7e8c49503299cca95c92c3cca6d5c9c5 StaticDependenciesID=d6cf8f1f17d007fd0b341f2f10a89f5d 
+  Time of request: 2026-11-07T01:28:06.7052371Z
+  Time since last request: 0.0000168 seconds.
+  importAddress: GUID: c31198774d98d9f43be2ca79cb0a84dc - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx - Importer: PreviewImporter
+Importing 'GUID: c31198774d98d9f43be2ca79cb0a84dc - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Kit_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c31198774d98d9f43be2ca79cb0a84dc' -> (Import Result ID: 'af44666b2276d9912c8ad187749d614f') in 0.795 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27edf230ebfbdf84c4d64e18740d7601 DependenciesID=4e776025a6e5e12b225a5e3c98542e8a StaticDependenciesID=c64873cd2b718c93bccb5672854792ab 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 181
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:34.4409727Z
-  Time since last request: 0.0023793 seconds.
-  importAddress: GUID: b27f687fc7f53a64d83610085bd6035b - Path: Assets/kitchen props/materials/knives.mat - Importer: PreviewImporter
-Importing 'GUID: b27f687fc7f53a64d83610085bd6035b - Path: Assets/kitchen props/materials/knives.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: b27f687fc7f53a64d83610085bd6035b' -> (Import Result ID: '656301b77c0fbfb95ce0f30f0992b38b') in 0.983 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0eef3479bd6d2fe4137e8cc0439cf48c DependenciesID=07752097895f5f742278800fd0e6e8e1 StaticDependenciesID=3724fbe629055a8944e88ac49b303af2 
+  Time of request: 2026-11-07T01:28:07.5171145Z
+  Time since last request: 0.0000185 seconds.
+  importAddress: GUID: cc17250781cc0974db297a8d6d9f9ef9 - Path: Assets/UI/06 – Scrub the dish 1.png - Importer: PreviewImporter
+Importing 'GUID: cc17250781cc0974db297a8d6d9f9ef9 - Path: Assets/UI/06 – Scrub the dish 1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cc17250781cc0974db297a8d6d9f9ef9' -> (Import Result ID: '725b18694e66146105673e1a7dc5acc9') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8754713a488907463d8b23119e3c4f5e DependenciesID=a4acb1ab65cf02350d9c4973d605e712 StaticDependenciesID=b8f73362a7b1f4afe866cd09e732784a 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:35.5332392Z
-  Time since last request: 0.0430079 seconds.
-  importAddress: GUID: 88b6dc8c22c60a54fafc2024e3bd1c7d - Path: Assets/kitchen props/materials/toaster.mat - Importer: PreviewImporter
-Importing 'GUID: 88b6dc8c22c60a54fafc2024e3bd1c7d - Path: Assets/kitchen props/materials/toaster.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 88b6dc8c22c60a54fafc2024e3bd1c7d' -> (Import Result ID: '5ebcce80aea34c17e9d95eeeff1898ed') in 0.955 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0197e8f1874f777dc5b20808840ce0e DependenciesID=6a834c8f6bbce4b0e1507e78e7f0a06e StaticDependenciesID=b8b39b175d1c76db58d4561f6bc1c042 
+  Time of request: 2026-11-07T01:28:07.5402119Z
+  Time since last request: 0.0008682 seconds.
+  importAddress: GUID: ec552ad5acc11584fb31156611289c2e - Path: Assets/XR/Settings/OpenXR Package Settings.asset - Importer: PreviewImporter
+Importing 'GUID: ec552ad5acc11584fb31156611289c2e - Path: Assets/XR/Settings/OpenXR Package Settings.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ec552ad5acc11584fb31156611289c2e' -> (Import Result ID: '048f2517bf260599b6ec8ffbddf3d986') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e822c19f2f24dd2a5cc628d88f2d3bfe DependenciesID=5fb46fb976b095edb54a86c7e9fb0a07 StaticDependenciesID=ab151449dea060d5d6dd887f02cbfa4d 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:36.5673379Z
-  Time since last request: 0.0503688 seconds.
-  importAddress: GUID: cc562f63147f83443989c4ee021af5d5 - Path: Assets/kitchen props/materials/counter.mat - Importer: PreviewImporter
-Importing 'GUID: cc562f63147f83443989c4ee021af5d5 - Path: Assets/kitchen props/materials/counter.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: cc562f63147f83443989c4ee021af5d5' -> (Import Result ID: '29d53447603238d7fa9ba23ca54788fe') in 0.532 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5269ce8b6b74f368a4e6ebdb34536e71 DependenciesID=b19ff8a81862fe5e407be13c366bbd8e StaticDependenciesID=6f29dee59918da2979f886f1e23abd28 
+  Time of request: 2026-11-07T01:28:07.5565629Z
+  Time since last request: 0.0020753 seconds.
+  importAddress: GUID: b546bca9e03124e4aa2ac123047f8973 - Path: Assets/UI/09 – Put the sponge down 1.png - Importer: PreviewImporter
+Importing 'GUID: b546bca9e03124e4aa2ac123047f8973 - Path: Assets/UI/09 – Put the sponge down 1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b546bca9e03124e4aa2ac123047f8973' -> (Import Result ID: '9b7f0f06897cf71357024f19e9e78024') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b39e94df4b9aa5334735f7ae242a4869 DependenciesID=b3335c6d23e1316713563c34a7d12541 StaticDependenciesID=3d4690093ef3701bbb6c79d634adcea1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:28:07.5784594Z
+  Time since last request: 0.0007594 seconds.
+  importAddress: GUID: 95cac277c5a04ef43add167566755e63 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx - Importer: PreviewImporter
+Importing 'GUID: 95cac277c5a04ef43add167566755e63 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 95cac277c5a04ef43add167566755e63' -> (Import Result ID: '796c310aa3be369882594d65c035361a') in 0.306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e1c190fd0905ce00f077a2854e20476 DependenciesID=faf6a3b0f1884c4f96c8b87d92bf86f8 StaticDependenciesID=80853d457d965eb9d4d2d169adbec184 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 279
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:28:07.8960541Z
+  Time since last request: 0.0004321 seconds.
+  importAddress: GUID: a4b22f7b734ff2544981899852b7cf84 - Path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset - Importer: PreviewImporter
+Importing 'GUID: a4b22f7b734ff2544981899852b7cf84 - Path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a4b22f7b734ff2544981899852b7cf84' -> (Import Result ID: '758d575828cf8659b555cc6971ef5655') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82ea8e36dbc3f206134abb209075334e DependenciesID=dbdd8c5e611f68abfc69ff16875cd673 StaticDependenciesID=d520c231b5aeb7a7566e77f52fd717ca 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:37.1220831Z
-  Time since last request: 0.0029453 seconds.
-  importAddress: GUID: d80f90649d0bf7448a779585d221995f - Path: Assets/kitchen props/materials/toaster-2.mat - Importer: PreviewImporter
-Importing 'GUID: d80f90649d0bf7448a779585d221995f - Path: Assets/kitchen props/materials/toaster-2.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: d80f90649d0bf7448a779585d221995f' -> (Import Result ID: '898fe8493a53953d532392a4647a950d') in 0.173 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f8313544b9c5755c24c188e780a721a DependenciesID=b5dc00c645cb015b2f10477e6802810b StaticDependenciesID=8de0aa05ea8703c4cdf4f77a88472fed 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-06T23:27:37.3277442Z
-  Time since last request: 0.0023515 seconds.
-  importAddress: GUID: f48424f1fffe39b4f873284f4ee6d4e8 - Path: Assets/kitchen props/materials/mugb.mat - Importer: PreviewImporter
-Importing 'GUID: f48424f1fffe39b4f873284f4ee6d4e8 - Path: Assets/kitchen props/materials/mugb.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: f48424f1fffe39b4f873284f4ee6d4e8' -> (Import Result ID: '49163a573a1907603387df566ee2c8e4') in 0.194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14cb9b9ce901fda1e55dcb2ec09bb813 DependenciesID=2b757ccbcf2a7d0f7c644c892a83158c StaticDependenciesID=3f13f57ed241c167316230d2eb5790a5 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time of request: 2026-11-06T23:27:37.6211534Z
-  Time since last request: 0.0702485 seconds.
-  importAddress: GUID: 8b28e4a961eaa3843ab93b6aa210dd2e - Path: Assets/kitchen props/materials/DishTowel.mat - Importer: PreviewImporter
-Importing 'GUID: 8b28e4a961eaa3843ab93b6aa210dd2e - Path: Assets/kitchen props/materials/DishTowel.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 8b28e4a961eaa3843ab93b6aa210dd2e' -> (Import Result ID: '34d1999bdc294b616c7f8a0d820dcab7') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c598bdc41cf26ef30774ac7ebce36811 DependenciesID=1cb22936b47f87aeddfc79d00da8f435 StaticDependenciesID=41d45bf40f67b26756b70faa2c7ba994 
+  Time of request: 2026-11-07T01:28:07.9174086Z
+  Time since last request: 0.0012896 seconds.
+  importAddress: GUID: 4a3c4e9ae9b122e449659fdb803fb1dc - Path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat - Importer: PreviewImporter
+Importing 'GUID: 4a3c4e9ae9b122e449659fdb803fb1dc - Path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4a3c4e9ae9b122e449659fdb803fb1dc' -> (Import Result ID: '270f3876323fa99b31f60611a23b1402') in 0.136 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b6a240a0697b3494a891eac55bb9762 DependenciesID=d8a9e01bc1290564d869b211f1c15dc2 StaticDependenciesID=6c3326ffc5f03c8ed65e4a2e0b94d6d2 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:37.6957483Z
-  Time since last request: 0.002214 seconds.
-  importAddress: GUID: a0ae7c41fdb3eb0419823ee09fb639b4 - Path: Assets/kitchen props/materials/plates.mat - Importer: PreviewImporter
-Importing 'GUID: a0ae7c41fdb3eb0419823ee09fb639b4 - Path: Assets/kitchen props/materials/plates.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: a0ae7c41fdb3eb0419823ee09fb639b4' -> (Import Result ID: '9f3f4f1f071d29387e7edf653b1150c3') in 0.127 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=066c5c8c68eac59e0c2656fec49573b4 DependenciesID=0fff3904372030bb3043679c1f2d8275 StaticDependenciesID=32cd806e18ba79f7574c38cfccbe9abe 
+  Time of request: 2026-11-07T01:28:08.0661748Z
+  Time since last request: 0.0000188 seconds.
+  importAddress: GUID: b753f3e4971bfa14090e1f306ef8d7ab - Path: Assets/UI/07 – Rinse the dish 1.png - Importer: PreviewImporter
+Importing 'GUID: b753f3e4971bfa14090e1f306ef8d7ab - Path: Assets/UI/07 – Rinse the dish 1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b753f3e4971bfa14090e1f306ef8d7ab' -> (Import Result ID: '8c309c6e73055022edc84475631cec77') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=097f826aca07cb472a270d6a1ed6152a DependenciesID=db8ed72c90f6207b38f94d1805495f5f StaticDependenciesID=04e73bf94302e72e9b5e8fd5f5cca8e0 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:37.8533143Z
-  Time since last request: 0.0032212 seconds.
-  importAddress: GUID: e9d7a1ade38403b4e91e2ac80017c20e - Path: Assets/kitchen props/materials/platesb.mat - Importer: PreviewImporter
-Importing 'GUID: e9d7a1ade38403b4e91e2ac80017c20e - Path: Assets/kitchen props/materials/platesb.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: e9d7a1ade38403b4e91e2ac80017c20e' -> (Import Result ID: 'b82c036e6db226190aaa8689268c94df') in 0.185 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06b8bfad10bfaa244b0c4acf2d6e1079 DependenciesID=6ba3d4f68e50cb52d7a356268501b0f6 StaticDependenciesID=1cea0533c7039f9351de92c26a9baafa 
+  Time of request: 2026-11-07T01:28:08.0894674Z
+  Time since last request: 0.001339 seconds.
+  importAddress: GUID: 3896f4ca02b49124dbe88348af6cd90b - Path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/AdlerWood_01_A.png - Importer: PreviewImporter
+Importing 'GUID: 3896f4ca02b49124dbe88348af6cd90b - Path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/AdlerWood_01_A.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3896f4ca02b49124dbe88348af6cd90b' -> (Import Result ID: 'e164e1cbad8afaa25e4345996a82a07a') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74827a3915195a86a34995b9d9d06b53 DependenciesID=4cf6834a44708be253e059b8bd045baf StaticDependenciesID=8a4b952b149d206d0932736ec0b30c63 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:38.075922Z
-  Time since last request: 0.0068526 seconds.
-  importAddress: GUID: 54e920447cfb1e54889e79e9fb4b896f - Path: Assets/kitchen props/materials/drainer.mat - Importer: PreviewImporter
-Importing 'GUID: 54e920447cfb1e54889e79e9fb4b896f - Path: Assets/kitchen props/materials/drainer.mat - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 54e920447cfb1e54889e79e9fb4b896f' -> (Import Result ID: '01a7e90fb8f87e2e207ea6487bd4e26a') in 0.215 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02732203b5a36064e735089bdb8b643e DependenciesID=5f7595f7d8e3c08b30cd879f2ec8823a StaticDependenciesID=f36916b81229c8d92be225c2919e280e 
+  Time of request: 2026-11-07T01:28:08.1262346Z
+  Time since last request: 0.0011022 seconds.
+  importAddress: GUID: 6b8603c9700ce4a4e96f10fa2e523901 - Path: Assets/UI/11 – Find the dish towel 1.png - Importer: PreviewImporter
+Importing 'GUID: 6b8603c9700ce4a4e96f10fa2e523901 - Path: Assets/UI/11 – Find the dish towel 1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6b8603c9700ce4a4e96f10fa2e523901' -> (Import Result ID: 'a05b6990c2612fcfb4c1a496cc5d6f92') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0aac83477538dcc36d9ba8b6b4d5d7e DependenciesID=947ed3e89971eaafb708d53fa95fae34 StaticDependenciesID=6cc293def1c9a4fc25be2783cd016154 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-06T23:27:40.1866411Z
-  Time since last request: 1.8624358 seconds.
-  importAddress: GUID: 383a595c6957fcb45bcbd0199826b9c0 - Path: Assets/Scenes/TestScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
-Importing 'GUID: 383a595c6957fcb45bcbd0199826b9c0 - Path: Assets/Scenes/TestScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
-Opening scene 'Assets/Scenes/TestScene.unity additively'
-Loaded scene 'Assets/Scenes/TestScene.unity'
-	Deserialize:            484.657 ms
-	Integration:            1607.105 ms
-	Integration of assets:  685.326 ms
-	Thread Wait Time:       9.817 ms
-	Total Operation Time:   2786.905 ms
-Imported 'GUID: 383a595c6957fcb45bcbd0199826b9c0' -> (Import Result ID: '30eb9af52f5638b264bdadcc70d4227b') in 20.921 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3966a0ec311ebd10e5c10d3e3e625c99 DependenciesID=8d05b0d4360ae14c5dd43e9dc89369a3 StaticDependenciesID=664397fa9f96228f6af5fd71745c34e0 
+  Time of request: 2026-11-07T01:28:08.1525355Z
+  Time since last request: 0.0013332 seconds.
+  importAddress: GUID: 84cd5ef0583ef6449bfe7ad09c001723 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/AdlerWood_01_N.png - Importer: PreviewImporter
+Importing 'GUID: 84cd5ef0583ef6449bfe7ad09c001723 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/AdlerWood_01_N.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 84cd5ef0583ef6449bfe7ad09c001723' -> (Import Result ID: 'c986bd08d1f596201dd25ddd7d843dfe') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=111c6f0d3c6a377e229d504c8eb0e6af DependenciesID=819fc4d51068f9c77c5090a5df700f4f StaticDependenciesID=ae894d11600beaae72e257320032543c 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15645
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:28:08.1974467Z
+  Time since last request: 0.000018 seconds.
+  importAddress: GUID: 3e19cecdfe9e13044928aaacaf421c1e - Path: Assets/UI/02 – Walk to the sink 1.png - Importer: PreviewImporter
+Importing 'GUID: 3e19cecdfe9e13044928aaacaf421c1e - Path: Assets/UI/02 – Walk to the sink 1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3e19cecdfe9e13044928aaacaf421c1e' -> (Import Result ID: '103b247ed7625dc33fa8442682fa0957') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b51afd51621c8eaeca77c4e0de633d3d DependenciesID=dd405fabb30603237a54b0e6cbaf4f4a StaticDependenciesID=de740b8e781b302894d06d6e4ba33cc7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:28:09.9388281Z
+  Time since last request: 1.7193268 seconds.
+  importAddress: GUID: cd2528b4c58decf4fa93cbcfc4c870ee - Path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/GameConsole_01.mat - Importer: PreviewImporter
+Importing 'GUID: cd2528b4c58decf4fa93cbcfc4c870ee - Path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc/GameConsole_01.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cd2528b4c58decf4fa93cbcfc4c870ee' -> (Import Result ID: '668891c1139b6b8d86659f34f3b2261d') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4568e7ab45780f73ecf7c759dcda671 DependenciesID=f60cfd21f9021d67f562384406d3b174 StaticDependenciesID=380cfdf2f4370744114eeda65e9d578e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:28:09.9848184Z
+  Time since last request: 0.0002521 seconds.
+  importAddress: GUID: 29e76f542ce050b4d8948ddead8c0c46 - Path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameConsole_Apt_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 29e76f542ce050b4d8948ddead8c0c46 - Path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameConsole_Apt_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 29e76f542ce050b4d8948ddead8c0c46' -> (Import Result ID: 'e053c05fd5385dcb7c8c0ccb6a9c934d') in 0.161 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca861d9d00a1d5df8e8733f7842a4dae DependenciesID=773d8ce7dae5f299c619ba667abb7e32 StaticDependenciesID=2df0960a42040f3f94790047b0d0e1a3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:28:10.1583966Z
+  Time since last request: 0.0003527 seconds.
+  importAddress: GUID: 34e386a75bb8feb4aa0f48b512cbb268 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Props_01.fbx - Importer: PreviewImporter
+Importing 'GUID: 34e386a75bb8feb4aa0f48b512cbb268 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Props_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 34e386a75bb8feb4aa0f48b512cbb268' -> (Import Result ID: '9206c5e64135716d770966510e311f21') in 0.802 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4897fcc3d8ed7c817abedc1646d2b38 DependenciesID=b57850619ec3c1424392a0e685d63676 StaticDependenciesID=ca632ca3f6b930875821eee63b52e924 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 414
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:29:35.0078541Z
+  Time since last request: 84.0351757 seconds.
+  importAddress: GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter
+Importing 'GUID: f4c83676b62354c488df9bb58e5383b9 - Path: Assets/Scenes/simple.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4c83676b62354c488df9bb58e5383b9' -> (Import Result ID: 'bf699b1ba3174df436a9bcd3959f4665') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab80d2bc50d96739119c127a32692a16 DependenciesID=ec1808b8c5036b16de731263995bae9a StaticDependenciesID=6fa4672c58ea8055d6e856fc1dd47f2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:29:47.148109Z
+  Time since last request: 12.127479 seconds.
+  importAddress: GUID: 2a83511a782a6aa4dafed1f5a2bd3803 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx - Importer: PreviewImporter
+Importing 'GUID: 2a83511a782a6aa4dafed1f5a2bd3803 - Path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Kitchen_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2a83511a782a6aa4dafed1f5a2bd3803' -> (Import Result ID: 'd4f7d212a268a91d1d24de154454c04f') in 0.615 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e47cc7502129affb8bd9d0e9ce596ef7 DependenciesID=0dd0c6f2aaf08c1eb1cf81a5b6ff31bd StaticDependenciesID=4a00afc5fc820b58d248381a8edf4d73 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 659
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 8.68 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 9.53 ms, found 17 plugins.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (3.4 MB). Loaded Objects now: 8385.
-Memory consumption went from 389.9 MB to 386.5 MB.
-Total: 57.400300 ms (FindLiveObjects: 6.677900 ms CreateObjectMapping: 0.267400 ms MarkObjects: 47.483800 ms  DeleteObjects: 1.819900 ms)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8851.
+Memory consumption went from 419.0 MB to 415.6 MB.
+Total: 10.996500 ms (FindLiveObjects: 0.598600 ms CreateObjectMapping: 0.182100 ms MarkObjects: 9.479200 ms  DeleteObjects: 0.382200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.61 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8851.
+Memory consumption went from 419.2 MB to 415.8 MB.
+Total: 9.596800 ms (FindLiveObjects: 0.504200 ms CreateObjectMapping: 0.121100 ms MarkObjects: 7.379900 ms  DeleteObjects: 0.851600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 10.26 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8851.
+Memory consumption went from 419.4 MB to 416.1 MB.
+Total: 10.166400 ms (FindLiveObjects: 1.122000 ms CreateObjectMapping: 0.124200 ms MarkObjects: 8.154700 ms  DeleteObjects: 0.398800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 12.19 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8851.
+Memory consumption went from 419.6 MB to 416.3 MB.
+Total: 12.709100 ms (FindLiveObjects: 1.289900 ms CreateObjectMapping: 0.223700 ms MarkObjects: 10.419800 ms  DeleteObjects: 0.383500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.76 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7469 unused Assets / (7.6 MB). Loaded Objects now: 8843.
+Memory consumption went from 424.9 MB to 417.2 MB.
+Total: 12.231500 ms (FindLiveObjects: 0.791700 ms CreateObjectMapping: 0.318700 ms MarkObjects: 9.200600 ms  DeleteObjects: 1.579900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 7.56 ms, found 17 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.58 ms, found 17 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 3031ms
+	BeginReloadAssembly (1341ms)
+		DisableScriptedObjects (71ms)
+		CreateAndSetChildDomain (1082ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (739ms)
+		LoadAssemblies (440ms)
+		TypeCache.Refresh (21ms)
+		AnalyzeDomain (157ms)
+			BuildScriptInfoCaches (149ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (874ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 7.67 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7540 unused Assets / (8.3 MB). Loaded Objects now: 8774.
+Memory consumption went from 420.2 MB to 411.9 MB.
+Total: 9.060200 ms (FindLiveObjects: 0.668800 ms CreateObjectMapping: 0.274700 ms MarkObjects: 6.229200 ms  DeleteObjects: 1.566000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 10.70 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8781.
+Memory consumption went from 414.9 MB to 411.5 MB.
+Total: 9.651400 ms (FindLiveObjects: 0.665400 ms CreateObjectMapping: 0.126400 ms MarkObjects: 7.978600 ms  DeleteObjects: 0.509100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
   graphicsApiMask: 2097152 -> 2359296
 ========================================================================
 Received Import Request.
-  Time of request: 2026-11-07T00:04:27.4369285Z
-  Time since last request: 2186.06247739999981 seconds.
-  importAddress: GUID: b670806386490b9428a4d276da7c641c - Path: Assets/StreamingAssets/RuntimeActionBindings.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: b670806386490b9428a4d276da7c641c - Path: Assets/StreamingAssets/RuntimeActionBindings.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: b670806386490b9428a4d276da7c641c' -> (Import Result ID: 'b39f9bd2744e4ef9cb5b1d0fb3c5cd3a') in 0.178 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe41f8481ae52b24d4d68a799e63007e DependenciesID=148ccef0019f0ca30896e16566e15802 StaticDependenciesID=6cdc3b5233187c63cffbe93fbe5118c5 
-Number of updated asset objects reloaded before import = 4
-Number of asset objects unloaded after import = 1
+  Time of request: 2026-11-07T01:43:09.6531217Z
+  Time since last request: 801.87628459999996 seconds.
+  importAddress: GUID: 274e45b94fcffd94bafdbb67b3f3d858 - Path: Assets/Assets/New Universal Render Pipeline Asset_Renderer.asset - Importer: PreviewImporter
+Importing 'GUID: 274e45b94fcffd94bafdbb67b3f3d858 - Path: Assets/Assets/New Universal Render Pipeline Asset_Renderer.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 274e45b94fcffd94bafdbb67b3f3d858' -> (Import Result ID: '31122a0bb40939348b49bffc4449371b') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be20d6a5b6f17d548792140118a8d24c DependenciesID=ee1a5b597129bdc0fe709a6efff4b377 StaticDependenciesID=7a2429843201b1bd7346dfa1b55bb54e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:43:10.5939942Z
+  Time since last request: 0.9099627 seconds.
+  importAddress: GUID: 052faaac586de48259a63d0c4782560b - Path: Assets/InputSystem_Actions.inputactions - Importer: PreviewImporter
+Importing 'GUID: 052faaac586de48259a63d0c4782560b - Path: Assets/InputSystem_Actions.inputactions - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 052faaac586de48259a63d0c4782560b' -> (Import Result ID: '4754ef0f55ba11a608f0605ac3408edd') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e6866f0f84aa3519782f1e548f633af DependenciesID=3686ca08d929378749f748073263ee2b StaticDependenciesID=dfb1af03afd5ad0e0a9bc4f5b188104c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-07T01:43:10.6138782Z
+  Time since last request: 0.0002633 seconds.
+  importAddress: GUID: 8105016687592461f977c054a80ce2f2 - Path: Assets/Readme.asset - Importer: PreviewImporter
+Importing 'GUID: 8105016687592461f977c054a80ce2f2 - Path: Assets/Readme.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8105016687592461f977c054a80ce2f2' -> (Import Result ID: 'ac19aad311b8bdaeaad5c15fa4ca56db') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fbf3bb5365282751b95b2d7eaa99ea3 DependenciesID=66bf8ace2ff7964134fcf4b5ce20c190 StaticDependenciesID=283eeb3a4e54e6dbaf296a051cbd1692 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 9.27 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8781.
+Memory consumption went from 413.6 MB to 410.2 MB.
+Total: 10.247900 ms (FindLiveObjects: 0.513300 ms CreateObjectMapping: 0.132200 ms MarkObjects: 6.973100 ms  DeleteObjects: 2.273100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 10.31 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8781.
+Memory consumption went from 413.8 MB to 410.5 MB.
+Total: 10.988700 ms (FindLiveObjects: 0.618300 ms CreateObjectMapping: 0.175700 ms MarkObjects: 9.367200 ms  DeleteObjects: 0.436300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.53 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8781.
+Memory consumption went from 414.0 MB to 410.6 MB.
+Total: 8.544900 ms (FindLiveObjects: 0.644700 ms CreateObjectMapping: 0.114500 ms MarkObjects: 7.077200 ms  DeleteObjects: 0.389000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 11.81 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.3 MB). Loaded Objects now: 8781.
+Memory consumption went from 414.2 MB to 410.9 MB.
+Total: 10.891900 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.129800 ms MarkObjects: 9.458500 ms  DeleteObjects: 0.398000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 8.75 ms, found 17 plugins.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (3.4 MB). Loaded Objects now: 8781.
+Memory consumption went from 414.4 MB to 411.0 MB.
+Total: 8.374900 ms (FindLiveObjects: 0.519400 ms CreateObjectMapping: 0.117600 ms MarkObjects: 7.016200 ms  DeleteObjects: 0.389300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296

@@ -70,6 +70,7 @@ public class GameLogic : MonoBehaviour
         screen0Obj.SetActive(true);
         nextButtonObj.SetActive(true);
         GameState = "Step0Wait";
+        Debug.Log("INTRO SCREEN");
     }
 
     void HideAllUIScreens(){

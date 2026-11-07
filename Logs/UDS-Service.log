@@ -1,19 +1,19 @@
 
 Server arguments:
   --memory-size 1073741824
-  --shared-postfix f2e5c1197142a4758413af511e190298
+  --shared-postfix 6fba261a905e784373098457f5846166
   --working-directory Library/DataStore
   --silent-console
   --shutdown-grace 0
   --client-process-check 0
-  --uds-log-file C:/Users/nadia/Documents/GitHub/NewVR/NewVRProject2/Logs/UDS-Service.log
+  --uds-log-file C:/Users/nyith/OneDrive/Desktop/NADVR/NewVRProject2/Logs/UDS-Service.log
   --debug-log 2
   -name
   Unity.DataStore
 
 Initialising UDS system complete:
   - System type: Service
-  - Resource namespace: f2e5c1197142a4758413af511e190298
+  - Resource namespace: 6fba261a905e784373098457f5846166
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
